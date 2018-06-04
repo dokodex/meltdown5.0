@@ -1,10 +1,26 @@
 @font-face {
   font-family: 'Montserrat Bold';
   font-style: normal;
-  src: url("../../imports/typography/Montserrat-Bold.ttf"); }
+  src: url("../imports/typography/Montserrat-Bold.ttf"); }
+
+@font-face {
+  font-family: 'Bebas';
+  font-style: normal;
+  src: url("../imports/typography/BebasNeue-Regular.ttf"); }
+
+@font-face {
+  font-family: 'Wensley';
+  font-style: normal;
+  src: url("../imports/typography/Wensley.ttf"); }
 
 body {
   margin: 0; }
+
+.vcenter {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column; }
 
 .header {
   align-items: center;
@@ -139,6 +155,90 @@ body {
   .footer__rrss {
     flex: 0 1 20%; } }
 
-.example {
+.music {
   max-width: 1280px;
-  height: 80vh; }
+  position: relative; }
+
+.music__head__link {
+  text-align: center;
+  text-decoration: none; }
+
+.music__head__grid {
+  background: url("../img/music/back.jpg") no-repeat;
+  background-size: auto 100%;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  width: 100%; }
+
+.music__head__description {
+  color: white;
+  font-family: "Wensley", sans-serif;
+  font-size: 15px;
+  padding-top: 10px; }
+
+.music__head__img {
+  width: 80%; }
+
+.music__head__rrss .icon {
+  height: 20px;
+  padding: 0 20px 20px 0;
+  opacity: .8; }
+
+.music__head__rrss .icon--spotify {
+  fill: #1db954; }
+
+.music__head__rrss .icon--youtube {
+  fill: #cc181e; }
+
+.music__albums {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between; }
+
+.music__album {
+  height: calc(100vw/3);
+  max-height: calc(1280px/3);
+  position: relative;
+  text-align: center; }
+
+.music__album--ftdttg {
+  background: transparent url("../img/music/ftdttg.jpg") no-repeat;
+  background-size: 100%; }
+
+.music__album--irtdh {
+  background: transparent url("../img/music/irtdh.jpg") no-repeat;
+  background-size: 100%; }
+
+.music__album--oxymoron {
+  background: transparent url("../img/music/oxymoron.jpg") no-repeat;
+  background-size: 100%; }
+
+.music__album__link {
+  background-color: rgba(0, 0, 0, 0.95);
+  font-family: "Montserrat Bold", sans-serif;
+  color: white;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  text-decoration: none;
+  transition: opacity .2s;
+  width: 100%; }
+
+.music__album__link:hover {
+  opacity: 1; }
+
+@media only screen and (min-width: 768px) {
+  .music__head__grid {
+    background-size: 100% auto;
+    grid-template-columns: 50% 50%; }
+  .music__head__description {
+    font-size: 1.5rem; }
+  .music__head__img {
+    height: 17rem;
+    width: auto; }
+  .music__head__rrss .icon {
+    height: 2rem; }
+  .music__albums {
+    flex-flow: row wrap; }
+  .music__album {
+    flex: 0 1 calc(100%/3); } }
