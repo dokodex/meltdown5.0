@@ -1,0 +1,128 @@
+$header-max-width: $grid;
+$header-title-font-family:$font-family-montserrat;
+$header-menu-backgorund-color:$color-gray-content;
+$header-menu-font-family:$font-family-montserrat;
+$header-menu-font-color1:$color-white;
+$header-menu-font-color2:$color-gray-content;
+$header-menu-link-box-shadow:$box-shadow-litle;
+$icon-menu-color:$color-white;
+
+.header{
+  align-items: center;
+  max-width: $header-max-width;
+  margin: auto;
+  padding: 0;
+  position: relative;
+  z-index: 15;
+}
+
+.header__grid{
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.header__title{
+  font-family:$header-title-font-family;
+  font-size:2rem;
+  font-weight: bold;
+  float: left;
+}
+
+.header__menu{
+  border-radius: 5px;
+  color: $header-menu-font-color1;
+  float: right;
+  font-family:$header-menu-font-family;
+  font-weight: bold;
+  text-align: right;
+  transition: background-color .2s;
+}
+
+.header__menu .header__menu__link{
+  text-align: center;
+}
+
+.header__menu a{
+  display: block;
+}
+
+.header__menu__link{
+  border-top: 1px white solid;
+  color: $header-menu-font-color1;
+  font-size: .5rem;
+  height: 2rem;
+  opacity: 0;
+  visibility: hidden;
+  position: relative;
+  text-decoration:none;
+  transition: opacity .2s, visibility .2s;
+  vertical-align: middle;
+}
+
+
+.icon--menu{
+  height: 1.5rem;
+  padding: .5rem;
+  transition: fill .2s;  
+}
+
+.header__menu.responsive{
+  background-color:$header-menu-backgorund-color;
+
+  .header__menu__link{
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .icon--menu{
+    fill:$icon-menu-color;
+  }
+}
+
+@media #{$breakpoints-medium} {
+  .header__grid{
+    grid-template-columns: 60% 40%;
+  }
+
+  .header__title{
+    font-size: 3rem;
+  }
+
+  .header__menu__responsive{
+    display: none;
+  }
+
+  .header__menu{
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+  .header__menu a{
+    display: inline;
+    padding: 1.5rem;
+  }
+
+  .header__menu__link{
+    color:$header-menu-font-color2;
+    font-size: 1rem;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .icon--menu{
+    display: none;
+  }
+
+  .header__menu.responsive{
+    background-color: transparent;
+  }
+
+}
+
+@media #{$breakpoints-large} {
+
+}
+
+@media #{$breakpoints-xlarge} {
+
+}
