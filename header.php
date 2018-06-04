@@ -22,11 +22,14 @@
   <body>
     <div class="header">
       <div class="header__grid">
-        <div class="header__title">Example</div>
+        <div class="header__title"><img class="header__img" src="img/meltdown-logos/meltdown-white.png" alt=""></div>
         <nav class="header__menu" id="header__mymenu">
           <a class="header__menu__responsive" href="javascript:void(0);" onclick="menuResponsive()"><?php require('imports/svg/menu.svg'); ?></a>
           <a class="header__menu__link active" href="">HOME</a>
-          <a class="header__menu__link active" href="">STORE</a>          
+          <a class="header__menu__link active" href="">STORE</a>
+          <a class="header__menu__link active" href="">VIDEOS</a>
+          <a class="header__menu__link active" href="">MUSIC</a>
+          <a class="header__menu__link active" href="">CONTACT</a>  
         </nav>
       </div>
     </div>  

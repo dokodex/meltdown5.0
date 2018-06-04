@@ -7,8 +7,13 @@ $header-menu-font-color2:$color-gray-content;
 $header-menu-link-box-shadow:$box-shadow-litle;
 $icon-menu-color:$color-white;
 
+body{
+  margin: 0;
+}
+
 .header{
   align-items: center;
+  background: url('../img/hero.jpg') no-repeat;
   max-width: $header-max-width;
   margin: auto;
   padding: 0;
@@ -26,6 +31,11 @@ $icon-menu-color:$color-white;
   font-size:2rem;
   font-weight: bold;
   float: left;
+}
+
+.header__img{
+  padding: 10px;
+  width: 80%;
 }
 
 .header__menu{
@@ -59,8 +69,13 @@ $icon-menu-color:$color-white;
   vertical-align: middle;
 }
 
+.header__menu__link:hover{
+  opacity: .3;
+}
+
 
 .icon--menu{
+  fill:$icon-menu-color;
   height: 1.5rem;
   padding: .5rem;
   transition: fill .2s;  
@@ -81,11 +96,15 @@ $icon-menu-color:$color-white;
 
 @media #{$breakpoints-medium} {
   .header__grid{
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 30% 70%;
   }
 
   .header__title{
     font-size: 3rem;
+  }
+
+  .header__img{
+    width: 15rem;
   }
 
   .header__menu__responsive{
@@ -104,7 +123,7 @@ $icon-menu-color:$color-white;
 
   .header__menu__link{
     color:$header-menu-font-color2;
-    font-size: 1rem;
+    font-size: .8rem;
     opacity: 1;
     visibility: visible;
   }

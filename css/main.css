@@ -3,8 +3,12 @@
   font-style: normal;
   src: url("../../imports/typography/Montserrat-Bold.ttf"); }
 
+body {
+  margin: 0; }
+
 .header {
   align-items: center;
+  background: url("../img/hero.jpg") no-repeat;
   max-width: 1280px;
   margin: auto;
   padding: 0;
@@ -20,6 +24,10 @@
   font-size: 2rem;
   font-weight: bold;
   float: left; }
+
+.header__img {
+  padding: 10px;
+  width: 80%; }
 
 .header__menu {
   border-radius: 5px;
@@ -48,7 +56,11 @@
   transition: opacity .2s, visibility .2s;
   vertical-align: middle; }
 
+.header__menu__link:hover {
+  opacity: .3; }
+
 .icon--menu {
+  fill: white;
   height: 1.5rem;
   padding: .5rem;
   transition: fill .2s; }
@@ -63,9 +75,11 @@
 
 @media only screen and (min-width: 768px) {
   .header__grid {
-    grid-template-columns: 60% 40%; }
+    grid-template-columns: 30% 70%; }
   .header__title {
     font-size: 3rem; }
+  .header__img {
+    width: 15rem; }
   .header__menu__responsive {
     display: none; }
   .header__menu {
@@ -76,7 +90,7 @@
     padding: 1.5rem; }
   .header__menu__link {
     color: #656262;
-    font-size: 1rem;
+    font-size: .8rem;
     opacity: 1;
     visibility: visible; }
   .icon--menu {
