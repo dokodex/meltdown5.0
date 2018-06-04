@@ -196,7 +196,7 @@ body {
   justify-content: space-between; }
 
 .music__album {
-  height: calc(100vw/3);
+  height: calc(100vw/2);
   max-height: calc(1280px/3);
   position: relative;
   text-align: center; }
@@ -241,4 +241,5 @@ body {
   .music__albums {
     flex-flow: row wrap; }
   .music__album {
-    flex: 0 1 calc(100%/3); } }
+    flex: 0 1 calc(100%/3);
+    height: calc(100vw/3); } }

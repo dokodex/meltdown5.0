@@ -58,7 +58,7 @@ $music-album-font-color:$color-white;
 }
 
 .music__album{
-  height: calc(100vw/3);
+  height: calc(100vw/2);
   max-height: calc(1280px/3);
   position: relative;
   text-align: center;
@@ -120,6 +120,7 @@ $music-album-font-color:$color-white;
 
   .music__album{
     flex: 0 1 calc(100%/3);
+    height: calc(100vw/3);
   }
 
 }
