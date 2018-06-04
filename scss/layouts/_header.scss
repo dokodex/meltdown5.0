@@ -11,6 +11,13 @@ body{
   margin: 0;
 }
 
+.vcenter{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column
+}
+
 .header{
   align-items: center;
   background: url('../img/hero.jpg') no-repeat;

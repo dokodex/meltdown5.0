@@ -1,0 +1,133 @@
+$music-max-width:$grid;
+$music-head-description-font-family:$font-family-wensley;
+$music-head-description-font-color:$color-white;
+$music-head-icon-spotify-color:$color-green-spotify;
+$music-head-icon-youtube-color:$color-red-youtube;
+$music-album-link-background-color:$color-black-opacity;
+$music-album-font-family:$font-family-montserrat;
+$music-album-font-color:$color-white;
+
+.music{
+  max-width: $music-max-width;
+  position: relative;
+}
+
+.music__head__link{
+  text-align: center;
+  text-decoration:none;
+}
+
+.music__head__grid{
+  background: url('../img/music/back.jpg') no-repeat;
+  background-size: auto 100%;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  width: 100%;
+}
+
+.music__head__description{
+  color: $music-head-description-font-color;
+  font-family: $music-head-description-font-family;
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+.music__head__img{
+  width: 80%;
+}
+
+.music__head__rrss .icon{
+  height: 20px;
+  padding: 0 20px 20px 0;
+  opacity: .8;
+}
+
+.music__head__rrss .icon--spotify{
+  fill:$music-head-icon-spotify-color;
+}
+
+
+.music__head__rrss .icon--youtube{
+  fill:$music-head-icon-youtube-color;
+}
+
+.music__albums{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+
+.music__album{
+  height: calc(100vw/3);
+  max-height: calc(1280px/3);
+  position: relative;
+  text-align: center;
+}
+
+.music__album--ftdttg{
+  background: transparent url('../img/music/ftdttg.jpg') no-repeat;
+  background-size: 100%;
+}
+
+.music__album--irtdh{
+  background: transparent url('../img/music/irtdh.jpg') no-repeat;
+  background-size: 100%;
+}
+
+.music__album--oxymoron{
+  background: transparent url('../img/music/oxymoron.jpg') no-repeat;
+  background-size: 100%;
+}
+
+.music__album__link{
+  background-color: $music-album-link-background-color;
+  font-family: $music-album-font-family;
+  color:$music-album-font-color;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  text-decoration: none;
+  transition: opacity .2s;
+  width: 100%;
+}
+
+.music__album__link:hover{
+  opacity: 1;
+}
+
+@media #{$breakpoints-medium} {
+  .music__head__grid{
+    background-size: 100% auto;
+    grid-template-columns: 50% 50%;
+  }
+
+  .music__head__description{
+    font-size: 1.5rem;
+  }
+
+  .music__head__img{
+    height: 17rem;
+    width: auto;
+  }
+
+  .music__head__rrss .icon{
+    height: 2rem;
+  }
+
+  .music__albums{
+    flex-flow: row wrap;
+  }
+
+  .music__album{
+    flex: 0 1 calc(100%/3);
+  }
+
+}
+
+@media #{$breakpoints-large} {
+
+}
+
+@media #{$breakpoints-xlarge} {
+
+}
