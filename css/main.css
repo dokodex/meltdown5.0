@@ -310,3 +310,65 @@ body {
     background-color: rgba(0, 0, 0, 0.95);
     color: white;
     opacity: 0; } }
+
+.tour-dates {
+  max-width: 1280px;
+  position: relative;
+  text-align: center;
+  z-index: 5; }
+
+.tour-dates__title {
+  font-family: "Bebas", sans-serif;
+  font-size: 3rem;
+  font-style: bold;
+  padding: 5rem 2rem 5rem 2rem; }
+
+.tour-dates__table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: .53rem;
+  margin: auto;
+  width: 95%; }
+
+.tour-dates__table td:nth-child(3), .tour-dates__table td:nth-child(4), .tour-dates__table td:nth-child(5) {
+  position: absolute;
+  visibility: hidden; }
+
+.tour-dates__table--head {
+  border-bottom: 3px solid;
+  border-color: #dddddd;
+  font-weight: bold;
+  line-height: 2rem; }
+
+.tour-dates__table--body {
+  border-top: 1px solid;
+  border-color: #dddddd;
+  line-height: 3rem; }
+
+.tour-dates--link {
+  text-decoration: none; }
+
+.tour-dates--button:hover {
+  transform: scale(0.8); }
+
+.tour-dates--button {
+  background-color: black;
+  border-radius: 9px;
+  color: white;
+  height: 1.5rem;
+  width: auto;
+  height: auto;
+  transition: transform .2s;
+  transform: scale(0.7); }
+
+.tour-dates__event, .tour-dates__tickets {
+  font-style: italic; }
+
+@media only screen and (min-width: 768px) {
+  .tour-dates__title {
+    font-size: 5rem; }
+  .tour-dates__table {
+    font-size: .8rem; }
+  .tour-dates__table td:nth-child(3), .tour-dates__table td:nth-child(4), .tour-dates__table td:nth-child(5) {
+    position: static;
+    visibility: visible; } }
