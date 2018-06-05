@@ -372,3 +372,60 @@ body {
   .tour-dates__table td:nth-child(3), .tour-dates__table td:nth-child(4), .tour-dates__table td:nth-child(5) {
     position: static;
     visibility: visible; } }
+
+.header {
+  display: inherit; }
+
+.home {
+  background: url("../img/hero.jpg") no-repeat;
+  color: #656262;
+  display: none;
+  height: 100vh;
+  font-family: "Montserrat Bold", sans-serif;
+  max-width: 1280px;
+  position: relative;
+  text-align: center;
+  z-index: 5; }
+
+.home__grid {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 50% 20% 20% 10%; }
+
+.home__img {
+  padding-top: 100px;
+  height: 5rem; }
+
+.home__menu__link {
+  color: #656262;
+  text-decoration: none;
+  transition: opacity .2s;
+  padding: 0 2rem 0 0; }
+
+.home__menu__link:hover {
+  opacity: .5; }
+
+.home__languages__link {
+  color: #656262;
+  text-decoration: none;
+  transition: opacity .2s; }
+
+.home__languages__link:hover {
+  opacity: .5; }
+
+.home__rrss__link {
+  text-decoration: none;
+  transition: opacity .2s;
+  padding: 0 1.5rem 0 0; }
+
+.home__rrss__link:hover {
+  opacity: .5; }
+
+.home__rrss .icon {
+  height: 1.8rem; }
+
+@media only screen and (min-width: 768px) {
+  .header {
+    display: none; }
+  .home {
+    display: inherit; } }
