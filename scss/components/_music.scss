@@ -34,6 +34,7 @@ $music-album-font-color:$color-white;
 
 .music__head__img{
   width: 80%;
+  opacity: .8;
 }
 
 .music__head__rrss .icon{
@@ -60,7 +61,7 @@ $music-album-font-color:$color-white;
 .music__album{
   height: calc(100vw/2);
   max-height: calc(1280px/3);
-  position: relative;
+  position: relative;  
   text-align: center;
 }
 
