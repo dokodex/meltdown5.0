@@ -78,9 +78,6 @@ $home-font-color:$color-gray-content;
 }
 
 @media #{$breakpoints-medium} {
-  .header{
-    display: none;
-  }
 
   .home{
     display: inherit;

@@ -1,0 +1,104 @@
+$contact-max-width:$grid-content;
+$contact-title-font-family:$font-family-bebas;
+$contact-font-family:$font-family-montserrat;
+$contact-font-color:$color-gray-content;
+
+.contact{
+  margin: auto;
+  max-width: $contact-max-width;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+  position: relative;
+  text-align: center;
+  z-index: 5;
+}
+
+.contact__grid{
+  display: grid;
+  grid-template-rows: calc(100%/3) calc(100%/3) calc(100%/3); 
+}
+
+.contact__title{
+  font-family: $contact-title-font-family;
+  font-size: 2rem;
+  padding-bottom: 5rem;
+
+}
+
+.contact__img{
+  height: 10rem;
+}
+
+.contact__info{
+  color: $contact-font-color;
+  font-family: $contact-font-family;
+  font-size: 10px;
+  text-align: center;
+}
+
+.contact__info h1{
+  font-size: 1rem;
+  color: black;
+}
+
+.contact__info h2{
+  font-size: .8rem;
+}
+
+.contact__info .icon{
+  height: 1rem;
+}
+
+.contact__press{
+  border-top: 1px $color-gray-content solid;
+  margin-top: 5rem;
+  padding-top: 5rem;
+}
+
+.contact__img--artgates{
+  height: 2rem;
+}
+
+.contact__img--imminence{
+  height: 3.3rem;
+}
+
+.contact__img--meltdown{
+  height: 2rem;
+}
+
+.contact__sep{
+  height: 3rem;
+}
+
+@media #{$breakpoints-medium} {
+
+  .contact__grid{
+    grid-template-columns: 50% 50%;
+  }
+  .contact__title{
+    grid-column: 1 / 3;
+    font-size: 4rem;
+  }
+
+  .contact__info{
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .contact__info h1{
+    font-size: 1.5rem;
+  }
+
+  .contact__sep{
+    grid-column: 1 / 3;
+  }
+}
+
+@media #{$breakpoints-large} {
+
+}
+
+@media #{$breakpoints-xlarge} {
+
+}
