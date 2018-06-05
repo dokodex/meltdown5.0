@@ -495,3 +495,32 @@ body {
     font-size: 1.5rem; }
   .contact__sep {
     grid-column: 1 / 3; } }
+
+.videos {
+  margin: auto;
+  max-width: 1280px;
+  position: relative;
+  z-index: 5; }
+
+.videos iframe {
+  border: 0px; }
+
+.videos__principal {
+  width: 100%; }
+
+.videos__flex {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column wrap; }
+
+.videos__video {
+  flex: 0 1 100%; }
+
+@media only screen and (min-width: 768px) {
+  .videos__principal {
+    height: 30rem; }
+  .videos__flex {
+    flex-flow: row wrap; }
+  .videos__video {
+    flex: 0 1 50%;
+    height: 15rem; } }
