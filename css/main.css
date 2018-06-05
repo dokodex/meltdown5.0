@@ -178,7 +178,8 @@ body {
   padding-top: 10px; }
 
 .music__head__img {
-  width: 80%; }
+  width: 80%;
+  opacity: .8; }
 
 .music__head__rrss .icon {
   height: 20px;
