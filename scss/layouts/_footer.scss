@@ -1,8 +1,10 @@
 $footer-max-width:$grid;
 
 .footer{
+  background: black;
   margin: auto;
   max-width: $footer-max-width;
+  min-height: 100px;
   position: relative;
   z-index: 15;
 }
@@ -12,14 +14,19 @@ $footer-max-width:$grid;
   flex-flow: row wrap;
   justify-content: space-between;
   text-align: center;
+  padding: 0 2rem 0 2rem;
 }
 
 .footer__flex .flex__box{
   padding: 20px 0 0 0;
+  margin-bottom: 2rem;
 }
 
 .footer__info{
+  color: $color-white;
   flex: 0 1 100%;
+  font-family: $font-family-bebas;
+  font-weight: normal;  
   transition: flex .5s;
 }
 
@@ -34,9 +41,15 @@ $footer-max-width:$grid;
 
 .footer__rrss__link{  
   text-decoration: none;
+  transition: opacity .2s;
+}
+
+.footer__rrss__link:hover{
+  opacity: .6;
 }
 
 .footer__rrss__link .icon{
+  fill: $color-gray-content;
   height: 2rem;
   padding: 0 1rem 0 0;
 }
@@ -51,7 +64,12 @@ $footer-max-width:$grid;
     text-align: left;
   }
   .footer__info{
-    flex: 0 1 80%
+    flex: 0 1 80%;
+    text-align: left;
+  }
+
+  .footer__flex .flex__box{
+    margin-bottom: 0;
   }
 
   .footer__rrss{
