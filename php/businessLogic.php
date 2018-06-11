@@ -7,6 +7,11 @@ class businessLogic{
 		$da = new dataAccess();
 		return $da->getcomingshows();
 	}
+
+  public function getpastshows(){
+    $da = new dataAccess();
+    return $da->getpastshows();
+  }
 }
 
 ?>
