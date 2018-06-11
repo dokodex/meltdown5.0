@@ -543,3 +543,68 @@ body {
   .videos__video {
     flex: 0 1 50%;
     height: 15rem; } }
+
+.past-shows {
+  background-color: black;
+  max-width: 1280px;
+  position: relative;
+  text-align: center;
+  z-index: 5; }
+
+.past-shows__title {
+  color: white;
+  font-family: "Bebas", sans-serif;
+  font-size: 3rem;
+  font-style: bold;
+  padding: 5rem 2rem 5rem 2rem; }
+
+.past-shows__table {
+  color: white;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: .53rem;
+  margin: auto;
+  width: 95%; }
+
+.past-shows__table td:nth-child(3), .past-shows__table td:nth-child(4), .past-shows__table td:nth-child(5) {
+  position: absolute;
+  visibility: hidden; }
+
+.past-shows__table--head {
+  border-bottom: 3px solid;
+  border-color: #dddddd;
+  font-weight: bold;
+  line-height: 2rem; }
+
+.past-shows__table--body {
+  border-top: 1px solid;
+  border-color: #dddddd;
+  line-height: 3rem; }
+
+.past-shows--link {
+  text-decoration: none; }
+
+.past-shows--button:hover {
+  transform: scale(0.8); }
+
+.past-shows--button {
+  background-color: black;
+  border-radius: 9px;
+  color: white;
+  height: 1.5rem;
+  width: auto;
+  height: auto;
+  transition: transform .2s;
+  transform: scale(0.7); }
+
+.past-shows__event, .past-shows__tickets {
+  font-style: italic; }
+
+@media only screen and (min-width: 768px) {
+  .past-shows__title {
+    font-size: 5rem; }
+  .past-shows__table {
+    font-size: .8rem; }
+  .past-shows__table td:nth-child(3), .past-shows__table td:nth-child(4), .past-shows__table td:nth-child(5) {
+    position: static;
+    visibility: visible; } }
