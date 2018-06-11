@@ -1,0 +1,90 @@
+$info-max-width:$grid;
+$info-font-family:$font-family-montserrat;
+$info-text-max-width:$grid-content;
+$info-text-font-color:$color-gray-content;
+$info-instagram-background-color:$color-black-opacity;
+$info-instagram-font-color:$color-white;
+
+.info{
+  font-family: $info-font-family;
+  margin: auto;
+  max-width:$info-max-width;
+  position:relative;
+  z-index:15;
+}
+
+.info__text{
+  column-count: 1;
+  margin: auto;
+  max-width: $info-text-max-width;
+  text-align: justify;
+  padding: 5rem 1rem 0 1rem;
+}
+
+.info__profiles{
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+.info__box{
+  flex: 0 1 100%;
+  position: relative;
+}
+
+.info__img{
+  width: 100%;
+}
+
+.info__instagram{
+  background-color: $info-instagram-background-color;
+  color: $info-instagram-font-color;
+  height: 100%;
+  padding-top: 10rem;
+  position: absolute;
+  opacity: 0;
+  text-align: center;
+  top: 0;
+  transition: opacity .2s;
+  width: 100%;
+}
+
+.info__instagram:hover{
+  opacity: 1;
+}
+
+.info__instagram .icon{
+  fill: $info-instagram-font-color;
+  height: 4rem;
+}
+
+.info__name{
+  padding-top: 2rem;
+}
+
+@media #{$breakpoints-medium} {
+  .info__text{
+    column-count: 2;
+  }
+
+  .info__profiles{
+    flex-flow: row wrap;
+  }
+
+  .info__box{
+    flex: 0 1 calc(100%/5);
+  }
+
+  .info__instagram{
+    height: 80%;
+  }
+
+}
+
+@media #{$breakpoints-large} {
+
+}
+
+@media #{$breakpoints-xlarge} {
+
+}
