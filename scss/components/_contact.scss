@@ -2,6 +2,7 @@ $contact-max-width:$grid-content;
 $contact-title-font-family:$font-family-bebas;
 $contact-font-family:$font-family-montserrat;
 $contact-font-color:$color-gray-content;
+$contact-separator-color:$color-black-opacity1;
 
 .contact{
   margin: auto;
@@ -20,13 +21,14 @@ $contact-font-color:$color-gray-content;
 
 .contact__title{
   font-family: $contact-title-font-family;
-  font-size: 2rem;
+  font-size: 3rem;
   padding-bottom: 5rem;
 
 }
 
 .contact__img{
   height: 10rem;
+  padding-top:3rem;
 }
 
 .contact__info{
@@ -50,7 +52,7 @@ $contact-font-color:$color-gray-content;
 }
 
 .contact__press{
-  border-top: 1px $color-gray-content solid;
+  border-top: 1px $contact-separator-color solid;
   margin-top: 5rem;
   padding-top: 5rem;
 }
@@ -79,6 +81,10 @@ $contact-font-color:$color-gray-content;
   .contact__title{
     grid-column: 1 / 3;
     font-size: 4rem;
+  }
+
+  .contact__img{
+    padding-top:0;
   }
 
   .contact__info{
