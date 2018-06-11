@@ -2,17 +2,12 @@ $home-max-width:$grid;
 $home-font-family:$font-family-montserrat;
 $home-font-color:$color-gray-content;
 
-
-.header{
-  display: inherit;
-}
-
 .home{
   background: url('../img/hero.jpg') no-repeat;
   color:$home-font-color;
-  display: none;
   height: 100vh;
   font-family: $home-font-family;
+  display:none;
   max-width: $home-max-width;
   position: relative;
   text-align: center;
@@ -79,9 +74,6 @@ $home-font-color:$color-gray-content;
 
 @media #{$breakpoints-medium} {
 
-  .home{
-    display: inherit;
-  }
 }
 
 @media #{$breakpoints-large} {
