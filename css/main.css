@@ -130,13 +130,15 @@ body {
   text-align: center;
   padding: 0 2rem 0 2rem; }
 
-.footer__flex .flex__box {
+.footer__flex__box {
+  flex: 0 1 100%; }
+
+.footer__flex .footer__flex__box {
   padding: 20px 0 0 0;
   margin-bottom: 2rem; }
 
 .footer__info {
   color: white;
-  flex: 0 1 100%;
   font-family: "Bebas", sans-serif;
   font-weight: normal;
   transition: flex .5s; }
@@ -144,8 +146,17 @@ body {
 .footer__info__link {
   text-decoration: none; }
 
+.footer__sponsors {
+  text-align: center; }
+
+.footer__sponsors__img {
+  width: 8rem;
+  transition: opacity .2s; }
+
+.footer__sponsors__img:hover {
+  opacity: .6; }
+
 .footer__rrss {
-  flex: 0 1 100%;
   transition: flex .5s; }
 
 .footer__rrss__link {
@@ -163,13 +174,14 @@ body {
 @media only screen and (min-width: 1024px) {
   .footer__flex {
     text-align: left; }
+  .footer__flex__box {
+    flex: 0 1 calc(100%/3); }
   .footer__info {
-    flex: 0 1 80%;
     text-align: left; }
-  .footer__flex .flex__box {
-    margin-bottom: 0; }
+  .footer__sponsors {
+    text-align: center; }
   .footer__rrss {
-    flex: 0 1 20%; } }
+    text-align: right; } }
 
 .music {
   max-width: 1280px;
