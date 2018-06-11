@@ -29,7 +29,6 @@ body {
   max-width: 1280px;
   margin: auto;
   padding: 0;
-  position: relative;
   z-index: 15; }
 
 .header__grid {
@@ -47,13 +46,15 @@ body {
   width: 80%; }
 
 .header__menu {
-  border-radius: 5px;
-  color: white;
-  float: right;
+  color: black;
   font-family: "Montserrat Bold", sans-serif;
   font-weight: bold;
+  right: 0;
   text-align: right;
-  transition: background-color .2s; }
+  transition: background-color .2s;
+  position: absolute;
+  width: 50%;
+  z-index: 0; }
 
 .header__menu .header__menu__link {
   text-align: center; }
@@ -61,13 +62,17 @@ body {
 .header__menu a {
   display: block; }
 
+.header__menu__link--languages {
+  font-weight: normal; }
+
 .header__menu__link {
   border-top: 1px white solid;
-  color: white;
-  font-size: .5rem;
+  color: black;
+  font-size: .9rem;
   height: 2rem;
   opacity: 0;
   visibility: hidden;
+  padding-top: 2.5rem;
   position: relative;
   text-decoration: none;
   transition: opacity .2s, visibility .2s;
@@ -83,12 +88,14 @@ body {
   transition: fill .2s; }
 
 .header__menu.responsive {
-  background-color: #656262; }
+  background-color: white;
+  height: 100%;
+  z-index: 20; }
   .header__menu.responsive .header__menu__link {
     opacity: 1;
     visibility: visible; }
   .header__menu.responsive .icon--menu {
-    fill: white; }
+    fill: black; }
 
 @media only screen and (min-width: 768px) {
   .header__grid {
@@ -101,15 +108,19 @@ body {
     display: none; }
   .header__menu {
     text-align: center;
-    padding-top: 1rem; }
+    padding-top: 1rem;
+    width: auto; }
   .header__menu a {
     display: inline;
     padding: 1.5rem; }
   .header__menu__link {
-    color: #656262;
+    color: white;
     font-size: .8rem;
     opacity: 1;
     visibility: visible; }
+  .header__menu__link--languages {
+    color: #656262;
+    padding-right: 2rem; }
   .icon--menu {
     display: none; }
   .header__menu.responsive {
@@ -401,15 +412,12 @@ body {
     position: static;
     visibility: visible; } }
 
-.header {
-  display: inherit; }
-
 .home {
   background: url("../img/hero.jpg") no-repeat;
   color: #656262;
-  display: none;
   height: 100vh;
   font-family: "Montserrat Bold", sans-serif;
+  display: none;
   max-width: 1280px;
   position: relative;
   text-align: center;
@@ -451,10 +459,6 @@ body {
 
 .home__rrss .icon {
   height: 1.8rem; }
-
-@media only screen and (min-width: 768px) {
-  .home {
-    display: inherit; } }
 
 .contact {
   margin: auto;

@@ -1,4 +1,15 @@
 <section class="section home">
+  <style type="text/css">
+    @media only screen and (min-width:768px) {
+      .header{
+        display: none;
+      }
+
+      .home{
+        display: inherit;
+      }
+    }
+  </style>
   <div class="home__grid">
     <div><img class="home__img" src="img/meltdown-logos/meltdown-white.png" alt=""/></div>
     <nav class="home__menu">
