@@ -624,3 +624,61 @@ body {
   .past-shows__table td:nth-child(3), .past-shows__table td:nth-child(4), .past-shows__table td:nth-child(5) {
     position: static;
     visibility: visible; } }
+
+.info {
+  font-family: "Montserrat Bold", sans-serif;
+  margin: auto;
+  max-width: 1280px;
+  position: relative;
+  z-index: 15; }
+
+.info__text {
+  column-count: 1;
+  margin: auto;
+  max-width: 780px;
+  text-align: justify;
+  padding: 5rem 1rem 0 1rem; }
+
+.info__profiles {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap; }
+
+.info__box {
+  flex: 0 1 100%;
+  position: relative; }
+
+.info__img {
+  width: 100%; }
+
+.info__instagram {
+  background-color: rgba(0, 0, 0, 0.95);
+  color: white;
+  height: 100%;
+  padding-top: 10rem;
+  position: absolute;
+  opacity: 0;
+  text-align: center;
+  top: 0;
+  transition: opacity .2s;
+  width: 100%; }
+
+.info__instagram:hover {
+  opacity: 1; }
+
+.info__instagram .icon {
+  fill: white;
+  height: 4rem; }
+
+.info__name {
+  padding-top: 2rem; }
+
+@media only screen and (min-width: 768px) {
+  .info__text {
+    column-count: 2; }
+  .info__profiles {
+    flex-flow: row wrap; }
+  .info__box {
+    flex: 0 1 calc(100%/5); }
+  .info__instagram {
+    height: 80%; } }
