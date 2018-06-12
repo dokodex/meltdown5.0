@@ -547,10 +547,14 @@ body {
 .videos__flex {
   display: flex;
   justify-content: space-between;
-  flex-flow: column wrap; }
+  flex-flow: column nowrap; }
 
 .videos__video {
-  flex: 0 1 100%; }
+  flex: 0 1 100%;
+  width: 100%; }
+
+.videos__video iframe {
+  width: 100%; }
 
 @media only screen and (min-width: 1024px) {
   .videos__principal {
@@ -559,7 +563,10 @@ body {
     flex-flow: row wrap; }
   .videos__video {
     flex: 0 1 50%;
-    height: 15rem; } }
+    height: 15rem; }
+  .videos__video iframe {
+    width: 100%;
+    height: 100%; } }
 
 .past-shows {
   background-color: black;
