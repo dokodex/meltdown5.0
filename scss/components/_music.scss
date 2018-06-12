@@ -87,7 +87,7 @@ $music-album-font-color:$color-white;
 }
 
 .music__album__img{
-  width: 100%;
+  width: 100vw;
 }
 
 @media #{$breakpoints-medium} {

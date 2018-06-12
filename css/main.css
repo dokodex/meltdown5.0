@@ -260,7 +260,7 @@ body {
   opacity: 1; }
 
 .music__album__img {
-  width: 100%; }
+  width: 100vw; }
 
 @media only screen and (min-width: 1024px) {
   .music__head__grid {
