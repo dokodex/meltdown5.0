@@ -60,7 +60,6 @@ $music-album-font-color:$color-white;
 
 .music__album{
   height: calc(100vw/2);
-  max-height: calc(1280px/3);
   position: relative;  
   text-align: center;
 }
@@ -97,6 +96,10 @@ $music-album-font-color:$color-white;
 }
 
 @media #{$breakpoints-medium} {
+
+}
+
+@media #{$breakpoints-large} {
   .music__head__grid{
     background-size: 100% auto;
     grid-template-columns: 50% 50%;
@@ -123,10 +126,6 @@ $music-album-font-color:$color-white;
     flex: 0 1 calc(100%/3);
     height: calc(100vw/3);
   }
-
-}
-
-@media #{$breakpoints-large} {
 
 }
 
