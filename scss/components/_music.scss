@@ -3,7 +3,7 @@ $music-head-description-font-family:$font-family-wensley;
 $music-head-description-font-color:$color-white;
 $music-head-icon-spotify-color:$color-green-spotify;
 $music-head-icon-youtube-color:$color-red-youtube;
-$music-album-link-background-color:$color-black-opacity;
+$music-info-background-color:$color-black-opacity;
 $music-album-font-family:$font-family-montserrat;
 $music-album-font-color:$color-white;
 
@@ -28,12 +28,12 @@ $music-album-font-color:$color-white;
 .music__head__description{
   color: $music-head-description-font-color;
   font-family: $music-head-description-font-family;
-  font-size: 15px;
-  padding-top: 10px;
+  font-size: 2rem;
+  padding-top: 5rem;
 }
 
 .music__head__img{
-  width: 80%;
+  width: 50%;
   opacity: .8;
 }
 
@@ -54,45 +54,40 @@ $music-album-font-color:$color-white;
 
 .music__albums{
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   justify-content: space-between;
 }
 
 .music__album{
-  height: calc(100vw/2);
-  position: relative;  
+  flex:0 1 100%;
+  font-family: $music-album-font-family;
+  font-size: 2.5rem;
+  margin: auto;
+  position: relative;
   text-align: center;
 }
 
-.music__album--ftdttg{
-  background: transparent url('../img/music/ftdttg.jpg') no-repeat;
-  background-size: 100%;
-}
-
-.music__album--irtdh{
-  background: transparent url('../img/music/irtdh.jpg') no-repeat;
-  background-size: 100%;
-}
-
-.music__album--oxymoron{
-  background: transparent url('../img/music/oxymoron.jpg') no-repeat;
-  background-size: 100%;
-}
-
 .music__album__link{
-  background-color: $music-album-link-background-color;
-  font-family: $music-album-font-family;
-  color:$music-album-font-color;
+  color: $music-album-font-color;
+  text-decoration: none;
+}
+
+.music__info{
+  background-color: $music-info-background-color;
   height: 100%;
   position: absolute;
   opacity: 0;
-  text-decoration: none;
-  transition: opacity .2s;
+  top: 0;
   width: 100%;
+  transition: opacity .2s;
 }
 
-.music__album__link:hover{
+.music__info:hover{
   opacity: 1;
+}
+
+.music__album__img{
+  width: 100%;
 }
 
 @media #{$breakpoints-medium} {
@@ -106,6 +101,7 @@ $music-album-font-color:$color-white;
   }
 
   .music__head__description{
+    padding-top: 0rem;
     font-size: 1.5rem;
   }
 
@@ -124,7 +120,11 @@ $music-album-font-color:$color-white;
 
   .music__album{
     flex: 0 1 calc(100%/3);
-    height: calc(100vw/3);
+    font-size: 1rem;
+  }
+
+  .music__album__img{
+    width: 100%;
   }
 
 }

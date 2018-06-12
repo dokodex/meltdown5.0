@@ -212,11 +212,11 @@ body {
 .music__head__description {
   color: white;
   font-family: "Wensley", sans-serif;
-  font-size: 15px;
-  padding-top: 10px; }
+  font-size: 2rem;
+  padding-top: 5rem; }
 
 .music__head__img {
-  width: 80%;
+  width: 50%;
   opacity: .8; }
 
 .music__head__rrss .icon {
@@ -232,45 +232,42 @@ body {
 
 .music__albums {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   justify-content: space-between; }
 
 .music__album {
-  height: calc(100vw/2);
+  flex: 0 1 100%;
+  font-family: "Montserrat Bold", sans-serif;
+  font-size: 2.5rem;
+  margin: auto;
   position: relative;
   text-align: center; }
 
-.music__album--ftdttg {
-  background: transparent url("../img/music/ftdttg.jpg") no-repeat;
-  background-size: 100%; }
-
-.music__album--irtdh {
-  background: transparent url("../img/music/irtdh.jpg") no-repeat;
-  background-size: 100%; }
-
-.music__album--oxymoron {
-  background: transparent url("../img/music/oxymoron.jpg") no-repeat;
-  background-size: 100%; }
-
 .music__album__link {
-  background-color: rgba(0, 0, 0, 0.95);
-  font-family: "Montserrat Bold", sans-serif;
   color: white;
+  text-decoration: none; }
+
+.music__info {
+  background-color: rgba(0, 0, 0, 0.95);
   height: 100%;
   position: absolute;
   opacity: 0;
-  text-decoration: none;
-  transition: opacity .2s;
-  width: 100%; }
+  top: 0;
+  width: 100%;
+  transition: opacity .2s; }
 
-.music__album__link:hover {
+.music__info:hover {
   opacity: 1; }
+
+.music__album__img {
+  width: 100%; }
 
 @media only screen and (min-width: 1024px) {
   .music__head__grid {
     background-size: 100% auto;
     grid-template-columns: 50% 50%; }
   .music__head__description {
+    padding-top: 0rem;
     font-size: 1.5rem; }
   .music__head__img {
     height: 17rem;
@@ -281,7 +278,9 @@ body {
     flex-flow: row wrap; }
   .music__album {
     flex: 0 1 calc(100%/3);
-    height: calc(100vw/3); } }
+    font-size: 1rem; }
+  .music__album__img {
+    width: 100%; } }
 
 .store {
   margin: auto;
