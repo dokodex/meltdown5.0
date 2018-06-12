@@ -36,7 +36,6 @@
         <?php require('imports/svg/mail.svg') ?> meltdowntaldea@gmail.com <br>
         <?php require('imports/svg/web.svg') ?> www.meltdownofficial.com <br>
       </div>
-
     </div>
   </div>
 </section>

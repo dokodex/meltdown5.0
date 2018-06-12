@@ -1,4 +1,5 @@
 $header-max-width: $grid;
+$header-background-color:$color-black;
 $header-title-font-family:$font-family-montserrat;
 $header-menu-backgorund-color:$color-white;
 $header-menu-font-family:$font-family-montserrat;
@@ -23,7 +24,7 @@ body{
 
 .header{
   align-items: center;
-  background: url('../img/hero.jpg') no-repeat;
+  background: $header-background-color;
   max-width: $header-max-width;
   margin: auto;
   padding: 0;
@@ -91,7 +92,7 @@ body{
 
 .icon--menu{
   fill:$icon-menu-color;
-  height: 1.5rem;
+  height: 3.5rem;
   padding: .5rem;
   transition: fill .2s;  
 }
@@ -115,6 +116,11 @@ body{
 }
 
 @media #{$breakpoints-medium} {
+
+
+}
+
+@media #{$breakpoints-large} {
   .header__grid{
     grid-template-columns: 30% 70%;
   }
@@ -161,11 +167,6 @@ body{
   .header__menu.responsive{
     background-color: transparent;
   }
-
-}
-
-@media #{$breakpoints-large} {
-
 }
 
 @media #{$breakpoints-xlarge} {
