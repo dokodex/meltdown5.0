@@ -75,6 +75,10 @@ $contact-separator-color:$color-black-opacity1;
 
 @media #{$breakpoints-medium} {
 
+
+}
+
+@media #{$breakpoints-large} {
   .contact__grid{
     grid-template-columns: 50% 50%;
   }
@@ -99,10 +103,6 @@ $contact-separator-color:$color-black-opacity1;
   .contact__sep{
     grid-column: 1 / 3;
   }
-}
-
-@media #{$breakpoints-large} {
-
 }
 
 @media #{$breakpoints-xlarge} {

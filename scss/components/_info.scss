@@ -63,6 +63,10 @@ $info-instagram-font-color:$color-white;
 }
 
 @media #{$breakpoints-medium} {
+
+}
+
+@media #{$breakpoints-large} {
   .info__text{
     column-count: 2;
   }
@@ -78,10 +82,6 @@ $info-instagram-font-color:$color-white;
   .info__instagram{
     height: 80%;
   }
-
-}
-
-@media #{$breakpoints-large} {
 
 }
 

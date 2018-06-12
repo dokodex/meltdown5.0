@@ -27,6 +27,10 @@ $videos-max-width:$grid;
 }
 
 @media #{$breakpoints-medium} {
+
+}
+
+@media #{$breakpoints-large} {
   .videos__principal{
     height: 30rem;
   }
@@ -39,10 +43,6 @@ $videos-max-width:$grid;
     flex: 0 1 50%;
     height: 15rem;
   }
-
-}
-
-@media #{$breakpoints-large} {
 
 }
 

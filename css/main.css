@@ -25,7 +25,7 @@ body {
 
 .header {
   align-items: center;
-  background: url("../img/hero.jpg") no-repeat;
+  background: black;
   max-width: 1280px;
   margin: auto;
   padding: 0;
@@ -83,7 +83,7 @@ body {
 
 .icon--menu {
   fill: white;
-  height: 1.5rem;
+  height: 3.5rem;
   padding: .5rem;
   transition: fill .2s; }
 
@@ -97,7 +97,7 @@ body {
   .header__menu.responsive .icon--menu {
     fill: black; }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .header__grid {
     grid-template-columns: 30% 70%; }
   .header__title {
@@ -298,8 +298,7 @@ body {
 
 .store__products {
   display: flex;
-  justify-content: space-between;
-  flex-flow: column wrap; }
+  justify-content: space-between; }
 
 .store__product {
   background-color: white;
@@ -314,19 +313,12 @@ body {
   text-decoration: none; }
 
 .store__img {
-  height: 80%;
   filter: drop-shadow(0px 0px 2px #000000);
   transition: all .2s; }
 
 .store__description {
   color: #656262;
   height: 19%; }
-
-@media only screen and (min-width: 768px) {
-  .store__products {
-    flex-flow: row wrap; }
-  .store__product {
-    flex: 0 1 50%; } }
 
 @media only screen and (min-width: 1024px) {
   .store__title {
@@ -515,7 +507,7 @@ body {
 .contact__sep {
   height: 3rem; }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .contact__grid {
     grid-template-columns: 50% 50%; }
   .contact__title {
@@ -551,7 +543,7 @@ body {
 .videos__video {
   flex: 0 1 100%; }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .videos__principal {
     height: 30rem; }
   .videos__flex {
@@ -673,7 +665,7 @@ body {
 .info__name {
   padding-top: 2rem; }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .info__text {
     column-count: 2; }
   .info__profiles {
