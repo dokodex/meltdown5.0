@@ -2,7 +2,7 @@
   <a class="music__head__link" href="" target="_blank">
     <div class="music__head__grid">
       <div class="music__head__description vcenter">NEW ALBUM <br> "FROM THIS DAY TO THE GRAVE" <br> OUT NOW</div>
-      <div class="music__head__album">
+      <div class="music__head__album vcenter">
         <img class="music__head__img" src="img/music/ftdttg.png" alt=""/>
       </div>
     </div>
@@ -21,8 +21,8 @@
       <img class="music__album__img" src="img/music/irtdh.jpg" alt=""/>
       <a class="music__album__link" href="" target="_blank">
         <div class="music__info vcenter">
-          "FROM THIS DAY TO THE GRAVE"<br>
-          (2018)
+          "I REFUSE TO DIE HERE"<br>
+          (2016)
         </div>
       </a>
     </div>
@@ -30,8 +30,8 @@
       <img class="music__album__img" src="img/music/oxymoron.jpg" alt=""/>
       <a class="music__album__link" href="" target="_blank">
         <div class="music__info vcenter">
-          "FROM THIS DAY TO THE GRAVE"<br>
-          (2018)
+          "OXYMORON"<br>
+          (2015)
         </div>
       </a>
     </div>
