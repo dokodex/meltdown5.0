@@ -89,7 +89,6 @@ body {
 
 .header__menu.responsive {
   background-color: white;
-  height: 100%;
   z-index: 20; }
   .header__menu.responsive .header__menu__link {
     opacity: 1;
