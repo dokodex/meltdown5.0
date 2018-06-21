@@ -10,9 +10,10 @@
         <a class="footer__sponsors__link footer__sponsors__link--hxc"><img class="footer__sponsors__img footer__sponsors__img--hxc" src="img/footer/hxc.png" alt=""/></a>
       </div>
       <div class="footer__rrss footer__flex__box">
-        <a class="footer__rrss__link footer__rrss__link--facebook" href="" target="_blank"><?php require('imports/svg/facebook.svg') ?></a>
-        <a class="footer__rrss__link footer__rrss__link--instagram" href="" target="_blank"><?php require('imports/svg/instagram.svg') ?></a>
-        <a class="footer__rrss__link footer__rrss__link--spotify" href="" target="_blank"><?php require('imports/svg/spotify.svg') ?></a>
+        <a class="footer__rrss__link footer__rrss__link--facebook" href="https://www.facebook.com/meltdowntaldea/" target="_blank"><?php require('imports/svg/facebook.svg') ?></a>
+        <a class="footer__rrss__link footer__rrss__link--instagram" href="https://www.instagram.com/meltdownband/" target="_blank"><?php require('imports/svg/instagram.svg') ?></a>
+        <a class="footer__rrss__link footer__rrss__link--spotify" href="https://open.spotify.com/artist/1wDfoSmnEVDw3D1hgzi4v7" target="_blank"><?php require('imports/svg/spotify.svg') ?></a>
+        <a class="footer__rrss__link footer__rrss__link--youtube" href="https://www.youtube.com/channel/UCDkyNOMrkprcsUsArS9foFw" target="_blank"><?php require('imports/svg/youtube.svg') ?></a>
       </div>
     </div>
   </div>

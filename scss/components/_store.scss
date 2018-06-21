@@ -1,5 +1,5 @@
 $store-max-width:$grid;
-$store-tilte-font-family:$font-family-montserrat;
+$store-tilte-font-family:$font-family-bebas;
 $store-product-background-color:$color-white;
 $store-product-font-family:$font-family-montserrat;
 $store-product-font-color:$color-gray-content;
@@ -13,14 +13,16 @@ $store-product-font-color:$color-gray-content;
 
 .store__title{
   font-family: $store-tilte-font-family;
-  font-size: 2rem;
+  font-size: 5rem;
+  padding-top:5rem;
   text-align: center;
-  padding: 1rem 0 1rem 0;
 }
 
 .store__products{
   display: flex;
+  flex-flow:column wrap;
   justify-content: space-between;
+  margin-bottom:5rem;
 }
 
 .store__product{
@@ -54,7 +56,8 @@ $store-product-font-color:$color-gray-content;
 @media #{$breakpoints-large} {
 
   .store__title{
-    font-size: 4rem;
+    font-size: 5rem;
+    font-style:bold;
   }
 
   .store__products{

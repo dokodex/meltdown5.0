@@ -1,5 +1,5 @@
 <section class="section store">
-  <div class="store__title">OFFICIAL STORE</div>
+  <h1 class="store__title">OFFICIAL STORE</h1>
   <div class="store__products">
     <div class="store__product">
       <a href="" target="_blank" class="store__product__link">
