@@ -152,22 +152,34 @@ body {
   color: white;
   font-family: "Bebas", sans-serif;
   font-weight: normal;
+  margin-top: .8rem;
   transition: flex .5s; }
 
 .footer__info__link {
-  text-decoration: none; }
+  color: white;
+  text-decoration: underline; }
+
+.footer__text {
+  font-size: 2rem;
+  padding-top: 1rem; }
 
 .footer__sponsors {
+  margin-top: 1rem;
   text-align: center; }
 
 .footer__sponsors__img {
-  width: 8rem;
+  width: 6rem;
+  padding: 0 .2rem 0 .2rem;
   transition: opacity .2s; }
 
 .footer__sponsors__img:hover {
   opacity: .6; }
 
+.footer__sponsors__img--hxc {
+  width: 2.5rem; }
+
 .footer__rrss {
+  margin-top: 1rem;
   transition: flex .5s; }
 
 .footer__rrss__link {
@@ -189,6 +201,8 @@ body {
     flex: 0 1 calc(100%/3); }
   .footer__info {
     text-align: left; }
+  .footer__text {
+    font-size: 1rem; }
   .footer__sponsors {
     text-align: center; }
   .footer__rrss {

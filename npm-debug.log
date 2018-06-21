@@ -7,7 +7,7 @@
 6 silly lifecycle example@1.0.0~prescss: no script for prescss, continuing
 7 info lifecycle example@1.0.0~scss: example@1.0.0
 8 verbose lifecycle example@1.0.0~scss: unsafe-perm in lifecycle true
-9 verbose lifecycle example@1.0.0~scss: PATH: /usr/share/npm/bin/node-gyp-bin:/opt/lampp/htdocs/meltdown5.0/node_modules/.bin:/home/pablo/gems/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+9 verbose lifecycle example@1.0.0~scss: PATH: /usr/share/npm/bin/node-gyp-bin:/opt/lampp/htdocs/meltdown5.0/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 10 verbose lifecycle example@1.0.0~scss: CWD: /opt/lampp/htdocs/meltdown5.0
 11 silly lifecycle example@1.0.0~scss: Args: [ '-c', 'node-sass --watch scss -o css' ]
 12 silly lifecycle example@1.0.0~scss: Returned: code: 1  signal: null
@@ -24,7 +24,7 @@
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
 15 verbose pkgid example@1.0.0
 16 verbose cwd /opt/lampp/htdocs/meltdown5.0
-17 error Linux 4.15.0-22-generic
+17 error Linux 4.15.0-23-generic
 18 error argv "/usr/bin/node" "/usr/bin/npm" "run" "scss"
 19 error node v8.10.0
 20 error npm  v3.5.2

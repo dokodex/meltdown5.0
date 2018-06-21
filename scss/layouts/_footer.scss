@@ -29,21 +29,30 @@ $footer-max-width:$grid;
 .footer__info{
   color: $color-white;
   font-family: $font-family-bebas;
-  font-weight: normal;  
+  font-weight: normal;
+  margin-top: .8rem;
   transition: flex .5s;
 }
 
 .footer__info__link{
-  text-decoration:none;
+  color:$color-white;
+  text-decoration:underline;
+}
+
+.footer__text{
+  font-size:2rem;
+  padding-top:1rem;
 }
 
 .footer__sponsors{
+  margin-top: 1rem;
   text-align: center;
 }
 
 
 .footer__sponsors__img{
-  width: 8rem;
+  width: 6rem;
+  padding: 0 .2rem 0 .2rem;
   transition: opacity .2s;
 }
 
@@ -51,7 +60,12 @@ $footer-max-width:$grid;
   opacity: .6;
 }
 
+.footer__sponsors__img--hxc{
+  width: 2.5rem;
+}
+
 .footer__rrss{
+  margin-top: 1rem;
   transition: flex .5s;
 }
 
@@ -86,6 +100,10 @@ $footer-max-width:$grid;
 
   .footer__info{
     text-align: left;
+  }
+
+  .footer__text{
+    font-size:1rem;
   }
 
   .footer__sponsors{
