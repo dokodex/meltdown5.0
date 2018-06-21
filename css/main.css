@@ -341,57 +341,66 @@ body {
     opacity: 0; } }
 
 .tour-dates {
-  margin: auto;
-  max-width: 780px;
+  max-width: 1280px;
   position: relative;
   text-align: center;
   z-index: 5; }
 
 .tour-dates__title {
   font-family: "Bebas", sans-serif;
-  font-size: 5rem;
+  font-size: 3rem;
   font-style: bold;
   padding: 5rem 2rem 5rem 2rem; }
 
-.tour-dates__tour-dates {
-  font-family: "Montserrat Bold", sans-serif; }
-
-.tour-dates__tour-date {
-  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.65);
-  margin-bottom: 1rem; }
-
-.tour-dates__grid {
-  background-color: white;
+.tour-dates__table {
   border-collapse: collapse;
-  display: grid;
-  grid-template-columns: 20% 50% 15% 15%;
-  text-align: left; }
+  border-spacing: 0;
+  font-size: .53rem;
+  margin: auto;
+  width: 95%; }
 
-.tour-dates__date {
-  background-color: #656262;
+.tour-dates__table td:nth-child(3), .tour-dates__table td:nth-child(4), .tour-dates__table td:nth-child(5) {
+  position: absolute;
+  visibility: hidden; }
+
+.tour-dates__table--head {
+  border-bottom: 3px solid;
+  border-color: #dddddd;
+  font-weight: bold;
+  line-height: 2rem; }
+
+.tour-dates__table--body {
+  border-top: 1px solid;
+  border-color: #dddddd;
+  line-height: 3rem; }
+
+.tour-dates--link {
+  text-decoration: none; }
+
+.tour-dates--button:hover {
+  transform: scale(0.8); }
+
+.tour-dates--button {
+  background-color: black;
+  border-radius: 9px;
   color: white;
-  text-align: center; }
+  height: 1.5rem;
+  width: auto;
+  height: auto;
+  transition: transform .2s;
+  transform: scale(0.7); }
 
-.tour-dates__info {
-  padding: 1rem; }
+.tour-dates__event, .tour-dates__tickets {
+  font-style: italic; }
 
-.icon--location {
-  height: 1rem; }
-
-.tour-dates__info h3 {
-  color: #656262;
-  font-weight: normal; }
-
-.icon--facebook1, .icon--tickets {
-  height: 3rem; }
-
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 768px) {
   .tour-dates__title {
     font-size: 5rem; }
-  .tour-dates__tour-date h2 {
-    font-size: 1rem; }
-  .tour-dates__tour-date h3 {
-    font-size: .8rem; } }
+  .tour-dates__table {
+    font-size: .8rem; }
+  .tour-dates__table td:nth-child(3), .tour-dates__table td:nth-child(4), .tour-dates__table td:nth-child(5) {
+    position: static;
+    visibility: visible; } }
 
 .home {
   background: url("../img/hero.jpg") no-repeat;
