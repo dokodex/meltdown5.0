@@ -3,7 +3,7 @@ $footer-max-width:$grid;
 .footer{
   background: black;
   margin: auto;
-  max-width: $footer-max-width;
+  max-width: 100vw;
   min-height: 100px;
   position: relative;
   z-index: 15;
