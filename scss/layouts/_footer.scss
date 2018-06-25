@@ -80,7 +80,7 @@ $footer-max-width:$grid;
 
 .footer__rrss__link .icon{
   fill: $color-gray-content;
-  height: 2rem;
+  height: 4rem;
   padding: 0 1rem 0 0;
 }
 
@@ -112,6 +112,10 @@ $footer-max-width:$grid;
 
   .footer__rrss{
     text-align: right;
+  }
+
+  .footer__rrss .icon{
+    height: 2rem;
   }
 
 }
