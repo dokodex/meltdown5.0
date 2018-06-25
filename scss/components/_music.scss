@@ -8,8 +8,10 @@ $music-album-font-family:$font-family-montserrat;
 $music-album-font-color:$color-white;
 
 .music{
+  margin:auto;
   max-width: $music-max-width;
   position: relative;
+  z-index:5;
 }
 
 .music__head__link{
