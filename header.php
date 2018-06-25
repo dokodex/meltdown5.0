@@ -33,6 +33,7 @@
           <a class="header__menu__link active" href="videos.php">VIDEOS</a>
           <a class="header__menu__link active" href="music.php">MUSIC</a>
           <a class="header__menu__link active" href="shows.php">SHOWS</a>
+          <a class="header__menu__link active" href="shows.php">ABOUT</a>
           <a class="header__menu__link active" href="contact.php">CONTACT</a>  
         </nav>
       </div>

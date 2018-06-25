@@ -18,6 +18,7 @@
       <a class="home__menu__link" href="videos.php">VIDEOS</a>
       <a class="home__menu__link" href="music.php">MUSIC</a>
       <a class="home__menu__link" href="shows.php">SHOWS</a>
+      <a class="home__menu__link" href="about.php">ABOUT</a>
       <a class="home__menu__link" href="contact.php">CONTACT</a>  
     </nav>
     <div class="home__languages">
