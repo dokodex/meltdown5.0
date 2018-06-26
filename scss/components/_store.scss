@@ -68,7 +68,7 @@ $store-product-font-color:$color-gray-content;
   }
 
   .store__product{
-    flex: 0 1 25%;
+    flex: 0 1 calc(100%/3);
     overflow: initial;
   }
 
