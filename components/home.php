@@ -13,7 +13,6 @@
   <div class="home__grid">
     <div><img class="home__img" src="img/meltdown-logos/meltdown-white.png" alt=""/></div>
     <nav class="home__menu">
-      <a class="home__menu__link" href="">HOME</a>
       <a class="home__menu__link" href="store.php">STORE</a>
       <a class="home__menu__link" href="videos.php">VIDEOS</a>
       <a class="home__menu__link" href="music.php">MUSIC</a>
