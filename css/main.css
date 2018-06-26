@@ -353,7 +353,7 @@ body {
   .store__products {
     flex-flow: row wrap; }
   .store__product {
-    flex: 0 1 25%;
+    flex: 0 1 calc(100%/3);
     overflow: initial; }
   .store__img {
     width: 100%;
