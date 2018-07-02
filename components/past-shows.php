@@ -1,4 +1,3 @@
-<?php include 'php/interface.php'; ?>
 <section class="section past-shows">
   <h1 class="past-shows__title">PAST SHOWS</h1>
   <table class="past-shows__table">
