@@ -7,7 +7,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="Content-Language" content="en" />
 
-    <title>Example</title>
+    <title>Meltdown | Hardcore-Metal band (Offcial Site)</title>
     
     <meta name="description" content="My projects to date" />
     <meta name="author" content="Dokodex" />
@@ -32,7 +32,7 @@
           <a class="header__menu__link active" href="videos.php">VIDEOS</a>
           <a class="header__menu__link active" href="music.php">MUSIC</a>
           <a class="header__menu__link active" href="shows.php">SHOWS</a>
-          <a class="header__menu__link active" href="shows.php">ABOUT</a>
+          <a class="header__menu__link active" href="about.php">ABOUT</a>
           <a class="header__menu__link active" href="contact.php">CONTACT</a>  
         </nav>
       </div>
