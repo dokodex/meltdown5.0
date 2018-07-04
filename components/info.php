@@ -39,35 +39,35 @@
     <div class="info__box">
       <img class="info__img" src="img/profiles/bittor.jpg" alt=""/>
       <div class="info__instagram">
-        <a class="info__instagram__link" href="" target="_blank"><?php require('imports/svg/instagram.svg') ?></a>
+        <a class="info__instagram__link" href="https://www.instagram.com/bittormd/" target="_blank"><?php require('imports/svg/instagram.svg') ?></a>
         <div class="info__name">Bittor</div>
       </div>
     </div>
     <div class="info__box">
       <img class="info__img" src="img/profiles/julen.jpg" alt=""/>
       <div class="info__instagram">
-        <a class="info__instagram__link" href="" target="_blank"><?php require('imports/svg/instagram.svg') ?></a>
+        <a class="info__instagram__link" href="https://www.instagram.com/julenthomson/" target="_blank"><?php require('imports/svg/instagram.svg') ?></a>
         <div class="info__name">Julen</div>
       </div>
     </div>
     <div class="info__box">
       <img class="info__img" src="img/profiles/sasu.jpg" alt=""/>
       <div class="info__instagram">
-        <a class="info__instagram__link" href="" target="_blank"><?php require('imports/svg/instagram.svg') ?></a>
+        <a class="info__instagram__link" href="https://www.instagram.com/sasu_mltdwn/" target="_blank"><?php require('imports/svg/instagram.svg') ?></a>
         <div class="info__name">Sasu</div>
       </div>
     </div>
     <div class="info__box">
       <img class="info__img" src="img/profiles/amunda.jpg" alt=""/>
       <div class="info__instagram">
-        <a class="info__instagram__link" href="" target="_blank"><?php require('imports/svg/instagram.svg') ?></a>
+        <a class="info__instagram__link" href="https://www.instagram.com/mikel_amunda/" target="_blank"><?php require('imports/svg/instagram.svg') ?></a>
         <div class="info__name">Amunda</div>
       </div>
     </div>
     <div class="info__box">
       <img class="info__img" src="img/profiles/pablo.jpg" alt=""/>
       <div class="info__instagram">
-        <a class="info__instagram__link" href="" target="_blank"><?php require('imports/svg/instagram.svg') ?></a>
+        <a class="info__instagram__link" href="https://www.instagram.com/pablo.n.everchanging/" target="_blank"><?php require('imports/svg/instagram.svg') ?></a>
         <div class="info__name">Pablo</div>
       </div>
     </div>
