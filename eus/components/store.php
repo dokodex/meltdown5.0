@@ -34,7 +34,7 @@
     <div class="store__product">
       <a href="https://meltdownband.bigcartel.com/product/beanie" target="_blank" class="store__product__link">
         <img class="store__img" src="img/merch/beannie.jpg">
-        <div class="store__description vcenter">BEANNIE 10€</div>
+        <div class="store__description vcenter">BEANIE 10€</div>
       </a>
     </div>
     <div class="store__product">
