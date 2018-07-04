@@ -26,8 +26,8 @@
         <nav class="header__menu" id="header__mymenu">
           <a class="header__menu__responsive" href="javascript:void(0);" onclick="menuResponsive()"><?php require('imports/svg/menu.svg'); ?></a>
           <a class="header__menu__link header__menu__link--languages active" href="">ESP</a>
-          <a class="header__menu__link header__menu__link--languages active" href="">ENG</a>
-          <a class="header__menu__link header__menu__link--languages active" href="">EUS</a>
+          <a class="header__menu__link header__menu__link--languages active" href="../">ENG</a>
+          <a class="header__menu__link header__menu__link--languages active" href="../eus">EUS</a>
           <a class="header__menu__link active" href="store.php">TIENDA</a>
           <a class="header__menu__link active" href="videos.php">VIDEOS</a>
           <a class="header__menu__link active" href="music.php">MUSICA</a>
