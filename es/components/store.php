@@ -2,7 +2,7 @@
   <h1 class="store__title">TIENDA OFICIAL</h1>
   <div class="store__products">
     <div class="store__product">
-      <a href="" target="_blank" class="store__product__link">
+      <a href="https://meltdownband.bigcartel.com/product/t-shirt-gear" target="_blank" class="store__product__link">
         <img class="store__img" src="img/merch/gear.jpg">
         <div class="store__description vcenter">GEAR 10€</div>
       </a>
