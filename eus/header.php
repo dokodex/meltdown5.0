@@ -25,8 +25,8 @@
         <div class="header__title"><a class="header__title__link" href="index.php"><img class="header__img" src="img/meltdown-logos/meltdown-white.png" alt=""></a></div>
         <nav class="header__menu" id="header__mymenu">
           <a class="header__menu__responsive" href="javascript:void(0);" onclick="menuResponsive()"><?php require('imports/svg/menu.svg'); ?></a>
-          <a class="header__menu__link header__menu__link--languages active" href="">ESP</a>
-          <a class="header__menu__link header__menu__link--languages active" href="">ENG</a>
+          <a class="header__menu__link header__menu__link--languages active" href="../es">ESP</a>
+          <a class="header__menu__link header__menu__link--languages active" href="../">ENG</a>
           <a class="header__menu__link header__menu__link--languages active" href="">EUS</a>
           <a class="header__menu__link active" href="store.php">DENDA</a>
           <a class="header__menu__link active" href="videos.php">BIDEOAK</a>

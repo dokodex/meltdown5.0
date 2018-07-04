@@ -21,9 +21,9 @@
       <a class="home__menu__link" href="contact.php">KONTAKTUA</a>  
     </nav>
     <div class="home__languages">
-      <a class="home__languages__link" href="">ESP | </a>
+      <a class="home__languages__link" href="../es">ESP | </a>
       <a class="home__languages__link" href="../">ENG | </a>
-      <a class="home__languages__link" href="../eus">EUS</a>
+      <a class="home__languages__link" href="">EUS</a>
     </div>
     <div class="home__rrss">
       <a class="home__rrss__link" href="https://www.facebook.com/meltdowntaldea/" target="_blank"><?php require('imports/svg/facebook.svg') ?></a>
