@@ -21,14 +21,6 @@
         <?php require('imports/svg/web.svg') ?> www.artgatesrecords.com <br>
       </div>
       <div class="contact__sep"></div>
-      <div class="vcenter"><a class="contact__link" href="https://www.imminencerecords.com/" target="_blank"><img class="contact__img contact__img--imminence" src="img/contact/imminence.png" alt=""/></a></div>
-      <div class="contact__info">
-        <h1>IMMINENCE RECORDS</h1>
-        <h2>USA / CANADA / MEXICO</h2>
-        <?php require('imports/svg/mail.svg') ?> ryan@imminencerecords.com <br>
-        <?php require('imports/svg/web.svg') ?> www.imminencerecords.com <br>
-      </div>
-      <div class="contact__sep"></div>
       <div class="vcenter"><a class="contact__link" href="https://www.facebook.com/meltdowntaldea/" target="_blank"><img class="contact__img contact__img--meltdown" src="img/meltdown-logos/meltdown-black.png" alt=""/></a></div>
       <div class="contact__info">
         <h1>MELTDOWN</h1>
