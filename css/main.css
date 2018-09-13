@@ -415,6 +415,7 @@ body {
 
 .home {
   background: url("../img/hero.jpg") no-repeat;
+  background-size: cover;
   color: #656262;
   height: 100vh;
   font-family: "Montserrat Bold", sans-serif;
@@ -581,6 +582,7 @@ body {
 
 .past-shows {
   background-color: black;
+  margin: auto;
   max-width: 1280px;
   position: relative;
   text-align: center;
@@ -709,3 +711,19 @@ body {
   .info__name {
     padding-top: 2rem;
     font-size: 1rem; } }
+
+.media {
+  flex-flow: row wrap;
+  font-family: "Montserrat Bold", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 1280px;
+  position: relative;
+  z-index: 15; }
+
+.media__box {
+  flex: 0 1 100%; }
+
+.media__download__item--link .icon {
+  height: 1rem; }
