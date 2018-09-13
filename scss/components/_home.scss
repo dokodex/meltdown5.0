@@ -4,6 +4,7 @@ $home-font-color:$color-gray-content;
 
 .home{
   background: url('../img/hero.jpg') no-repeat;
+  background-size: cover;
   color:$home-font-color;
   height: 100vh;
   font-family: $home-font-family;
