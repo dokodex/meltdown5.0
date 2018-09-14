@@ -1,4 +1,4 @@
-$media-max-width:$grid;
+$media-max-width:$grid-content;
 $media-font-family:$font-family-montserrat;
 
 .media{
@@ -16,8 +16,44 @@ $media-font-family:$font-family-montserrat;
   flex: 0 1 100%;
 }
 
+.media__box h1{
+  font-size: 3rem;
+  text-align: center;
+}
+
 .media__download__item--link .icon{
-  height: 1rem;
+  height: 2rem;
+}
+
+.media__download__downloads{
+  margin-left: 15rem;
+}
+
+.media__download__item{
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+.media__photo img{
+  width: 100%;
+}
+
+.media__spotify{
+  width: 100%;
+}
+
+.media__frame{
+  width: 100%;
+}
+
+.media__bio{
+  column-count: 1;
+  font-size:2rem;
+  margin: auto;
+  max-width: $info-text-max-width;
+  text-align: justify;
+  padding: 5rem 1rem 0 1rem;
+
 }
 
 @media #{$breakpoints-medium} {
