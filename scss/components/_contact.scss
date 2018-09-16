@@ -51,6 +51,12 @@ $contact-separator-color:$color-black-opacity1;
   height: 2rem;
 }
 
+.contact__booking{
+  border-top: 1px $contact-separator-color solid;
+  margin-top: 5rem;
+  padding-top: 5rem;
+}
+
 .contact__press{
   border-top: 1px $contact-separator-color solid;
   margin-top: 5rem;

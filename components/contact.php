@@ -1,12 +1,31 @@
 <section class="section contact">
   <div class="contact__management">
     <div class="contact__grid">
-      <div class="contact__title">MANAGEMENT & BOOKING</div>
+      <div class="contact__title">MANAGEMENT</div>
       <div class="vcenter"><a class="contact__link" href="https://www.facebook.com/atlasartistagency/" target="_blank"><img class="contact__img contact__img--atlas" src="img/contact/atlas.png" alt=""/></a></div>
       <div class="contact__info">
         <h1>ATLAS ARTIS AGENCY</h1>
         <?php require('imports/svg/phone.svg') ?> 0034 696 039 804 (Rove)<br>
         <?php require('imports/svg/mail.svg') ?> info@atlasartistagency.com
+      </div>
+    </div>
+  </div>
+  <div class="contact__booking">
+    <div class="contact__grid">
+      <div class="contact__title">BOOKING</div>
+      <div class="vcenter"><a class="contact__link" href="https://www.facebook.com/atlasartistagency/" target="_blank"><img class="contact__img contact__img--atlas" src="img/contact/atlas.png" alt=""/></a></div>
+      <div class="contact__info">
+        <h1>ATLAS ARTIS AGENCY</h1>
+        <h2>WORLDWIDE</h2>
+        <?php require('imports/svg/phone.svg') ?> 0034 696 039 804 (Rove)<br>
+        <?php require('imports/svg/mail.svg') ?> info@atlasartistagency.com
+      </div>
+      <div class="contact__sep"></div>
+      <div class="vcenter"><a class="contact__link" href="http://growingrootsagency.com/" target="_blank"><img class="contact__img contact__img--atlas" src="img/contact/gr.png" alt=""/></a></div>
+      <div class="contact__info">
+        <h1>GROWING ROOTS AGENCY</h1>
+        <h2>SWITZERLAND</h2>
+        <?php require('imports/svg/mail.svg') ?> j.mulle@growingrootsagency.com
       </div>
     </div>
   </div>
