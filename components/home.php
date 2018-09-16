@@ -31,5 +31,6 @@
       <a class="home__rrss__link" href="https://open.spotify.com/artist/1wDfoSmnEVDw3D1hgzi4v7" target="_blank"><?php require('imports/svg/spotify.svg') ?></a>
       <a class="home__rrss__link" href="https://www.youtube.com/channel/UCDkyNOMrkprcsUsArS9foFw" target="_blank"><?php require('imports/svg/youtube.svg') ?></a>
     </div>
+    <div><?php require('imports/svg/down-arrow.svg') ?></div>
   </div>
 </section>

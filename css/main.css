@@ -428,7 +428,7 @@ body {
 .home__grid {
   height: 100%;
   display: grid;
-  grid-template-rows: 50% 20% 20% 10%; }
+  grid-template-rows: 40% 20% 20% 10% 10%; }
 
 .home__img {
   padding-top: 100px;
@@ -461,6 +461,17 @@ body {
 
 .home__rrss .icon {
   height: 1.8rem; }
+
+.icon--down-arrow {
+  height: 5rem;
+  opacity: 0;
+  animation: scaleIn 1s infinite cubic-bezier(0.36, 0.11, 0.89, 0.32); }
+
+@keyframes scaleIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
 
 .contact {
   margin: auto;
