@@ -16,24 +16,26 @@
     <meta name="copyrite" content="Copyrite Dokodex 2018" />
     
     <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="shortcut icon" href="img/gear.png" />
 
   </head>
 
   <body>
+    <?php include 'php/languages.php';?>
     <div class="header">
       <div class="header__grid">
-        <div class="header__title"><a class="header__title__link" href="index.php"><img class="header__img" src="img/meltdown-logos/meltdown-white.png" alt=""></a></div>
+        <div class="header__title"><a class="header__title__link" <?php echo 'href="index.php?language=' . $language . '"'; ?>><img class="header__img" src="img/meltdown-logos/meltdown-white.png" alt=""></a></div>
         <nav class="header__menu" id="header__mymenu">
           <a class="header__menu__responsive" href="javascript:void(0);" onclick="menuResponsive()"><?php require('imports/svg/menu.svg'); ?></a>
-          <a class="header__menu__link header__menu__link--languages active" href="es">ESP</a>
-          <a class="header__menu__link header__menu__link--languages active" href="">ENG</a>
-          <a class="header__menu__link header__menu__link--languages active" href="eus">EUS</a>
-          <a class="header__menu__link active" href="store.php">STORE</a>
-          <a class="header__menu__link active" href="videos.php">VIDEOS</a>
-          <a class="header__menu__link active" href="music.php">MUSIC</a>
-          <a class="header__menu__link active" href="shows.php">SHOWS</a>
-          <a class="header__menu__link active" href="about.php">ABOUT</a>
-          <a class="header__menu__link active" href="contact.php">CONTACT</a>  
+          <a class="header__menu__link header__menu__link--languages active" href="?language=es">ESP</a>
+          <a class="header__menu__link header__menu__link--languages active" href="?language=eng">ENG</a>
+          <a class="header__menu__link header__menu__link--languages active" href="?language=eus">EUS</a>
+          <a class="header__menu__link active" <?php echo 'href="store.php?language=' . $language . '"'; ?>>STORE</a>
+          <a class="header__menu__link active" <?php echo 'href="videos.php?language=' . $language . '"'; ?>>VIDEOS</a>
+          <a class="header__menu__link active" <?php echo 'href="music.php?language=' . $language . '"'; ?>>MUSIC</a>
+          <a class="header__menu__link active" <?php echo 'href="shows.php?language=' . $language . '"'; ?>>SHOWS</a>
+          <a class="header__menu__link active" <?php echo 'href="about.php?language=' . $language . '"'; ?>>ABOUT</a>
+          <a class="header__menu__link active" <?php echo 'href="contact.php?language=' . $language . '"'; ?>>CONTACT</a>  
         </nav>
       </div>
     </div>  
