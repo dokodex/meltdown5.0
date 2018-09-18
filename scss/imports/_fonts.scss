@@ -5,6 +5,12 @@
 }
 
 @font-face{
+  font-family: 'Montserrat Thin';
+  font-style: normal;
+  src: url('../imports/typography/Montserrat-Regular.ttf');
+}
+
+@font-face{
   font-family: 'Bebas';
   font-style: normal;
   src: url('../imports/typography/BebasNeue-Regular.ttf');
@@ -18,5 +24,6 @@
 
 
 $font-family-montserrat: 'Montserrat Bold', sans-serif;
+$font-family-montserrat-regular: 'Montserrat Regular', sans-serif;
 $font-family-bebas: 'Bebas', sans-serif;
 $font-family-wensley: 'Wensley', sans-serif;

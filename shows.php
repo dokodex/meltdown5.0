@@ -1,4 +1,5 @@
-<?php require_once('header.php'); ?>
-<?php require_once('components/tour-dates.php'); ?>
-<?php require_once('components/past-shows.php'); ?>
-<?php require_once('footer.php'); ?>
+<?php include 'php/languages.php';?>
+<?php require_once('components/'. $language .'/header.php'); ?>
+<?php require_once('components/'. $language .'/tour-dates.php'); ?>
+<?php require_once('components/'. $language .'/past-shows.php'); ?>
+<?php require_once('components/'. $language .'/footer.php'); ?>

@@ -21,7 +21,6 @@
   </head>
 
   <body>
-    <?php include 'php/languages.php';?>
     <div class="header">
       <div class="header__grid">
         <div class="header__title"><a class="header__title__link" <?php echo 'href="index.php?language=' . $language . '"'; ?>><img class="header__img" src="img/meltdown-logos/meltdown-white.png" alt=""></a></div>
