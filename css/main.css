@@ -4,6 +4,11 @@
   src: url("../imports/typography/Montserrat-Bold.ttf"); }
 
 @font-face {
+  font-family: 'Montserrat Thin';
+  font-style: normal;
+  src: url("../imports/typography/Montserrat-Regular.ttf"); }
+
+@font-face {
   font-family: 'Bebas';
   font-style: normal;
   src: url("../imports/typography/BebasNeue-Regular.ttf"); }
@@ -14,7 +19,7 @@
   src: url("../imports/typography/Wensley.ttf"); }
 
 body {
-  background-color: #FFFAFA;
+  background-color: #fbfbfb;
   margin: 0; }
 
 .vcenter {
@@ -172,7 +177,7 @@ body {
   text-align: center; }
 
 .footer__sponsors__img {
-  width: 6rem;
+  width: 4.5rem;
   padding: 0 .2rem 0 .2rem;
   transition: opacity .2s; }
 
@@ -434,6 +439,9 @@ body {
   padding-top: 100px;
   height: 5rem; }
 
+.home__menu {
+  font-size: 1.5rem; }
+
 .home__menu__link {
   color: #656262;
   text-decoration: none;
@@ -597,9 +605,10 @@ body {
     height: 100%; } }
 
 .past-shows {
-  background-color: black;
+  background-color: #656262;
   margin: auto;
   max-width: 1280px;
+  margin-bottom: 5rem;
   position: relative;
   text-align: center;
   z-index: 5; }
@@ -665,14 +674,21 @@ body {
 .info {
   font-family: "Montserrat Bold", sans-serif;
   margin: auto;
+  margin-top: 5rem;
   max-width: 1280px;
   position: relative;
+  text-align: center;
   z-index: 15; }
+
+.info__topimg {
+  height: 3rem; }
 
 .info__text {
   column-count: 1;
+  font-family: "Montserrat Regular", sans-serif;
   font-size: 2rem;
   margin: auto;
+  margin-bottom: 5rem;
   max-width: 780px;
   text-align: justify;
   padding: 5rem 1rem 0 1rem; }

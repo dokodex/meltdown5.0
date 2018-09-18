@@ -2,21 +2,30 @@ $info-max-width:$grid;
 $info-font-family:$font-family-montserrat;
 $info-text-max-width:$grid-content;
 $info-text-font-color:$color-gray-content;
+$info-text-font-family:$font-family-montserrat-regular;
 $info-instagram-background-color:$color-black-opacity;
 $info-instagram-font-color:$color-white;
 
 .info{
   font-family: $info-font-family;
   margin: auto;
+  margin-top: 5rem;
   max-width:$info-max-width;
   position:relative;
+  text-align: center;
   z-index:15;
+}
+
+.info__topimg{
+  height: 3rem;
 }
 
 .info__text{
   column-count: 1;
+  font-family: $info-text-font-family;
   font-size:2rem;
   margin: auto;
+  margin-bottom: 5rem;
   max-width: $info-text-max-width;
   text-align: justify;
   padding: 5rem 1rem 0 1rem;

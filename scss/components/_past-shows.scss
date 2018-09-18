@@ -1,5 +1,5 @@
 $past-shows-max-width:$grid;
-$past-shows-background-color:$color-black;
+$past-shows-background-color:$color-gray-content;
 $past-shows-title-font-family:$font-family-bebas;
 $past-shows-title-font-color:$color-white;
 
@@ -7,6 +7,7 @@ $past-shows-title-font-color:$color-white;
   background-color:$past-shows-background-color;
   margin: auto;
   max-width:$past-shows-max-width;
+  margin-bottom: 5rem;
   position: relative;
   text-align: center;
   z-index: 5;
