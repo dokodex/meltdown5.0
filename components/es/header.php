@@ -7,7 +7,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="Content-Language" content="en" />
 
-    <title>Meltdown | Hardcore-Metal band (Offcial Site)</title>
+    <title>MELTDOWN | BANDA DE HARDORE-METAL [SITIO OFICIAL]</title>
     
     <meta name="description" content="My projects to date" />
     <meta name="author" content="Dokodex" />
