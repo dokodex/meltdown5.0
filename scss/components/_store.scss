@@ -2,6 +2,7 @@ $store-max-width:$grid;
 $store-tilte-font-family:$font-family-bebas;
 $store-product-background-color:$color-white;
 $store-product-font-family:$font-family-montserrat;
+$note-font-family:$font-family-montserrat-regular;
 $store-product-font-color:$color-gray-content;
 
 .store{
@@ -50,6 +51,15 @@ $store-product-font-color:$color-gray-content;
 
 .store__description:hover{
   opacity: 1;
+}
+
+.store__note{
+  border: 3px black solid;
+  font-family: $note-font-family;
+  font-size: 2rem;
+  margin-bottom: 5rem;
+  padding: 2rem;
+  text-align: center;
 }
 
 @media #{$breakpoints-medium} {
