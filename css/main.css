@@ -351,6 +351,14 @@ body {
 .store__description:hover {
   opacity: 1; }
 
+.store__note {
+  border: 3px black solid;
+  font-family: "Montserrat Regular", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 5rem;
+  padding: 2rem;
+  text-align: center; }
+
 @media only screen and (min-width: 1024px) {
   .store__title {
     font-size: 5rem;
