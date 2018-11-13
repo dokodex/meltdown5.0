@@ -34,7 +34,11 @@
 
 
 
-    In <strong>January 2018</strong> Meltdown announces the reléase of their first LP calles “From This Day To The Grave” as well as their signing with <strong>Art Gates Records</strong> (Spain and Portugal) and <strong>Imminence Records</strong>(USA) with their first single called "Rip Out My Eyes.
+    In January 2018 Meltdown announces the release of their first LP called <strong>“From This Day To The Grave”</strong> as well as their signing with <strong>Art Gates Records</strong> (Spain and Portugal) and <strong>Imminence Records</strong>(USA). 
+
+    This release brings the biggest highlights of the band's history: they tour non-stop through <strong>Europe with more than 25 shows</strong> outside their state, bringing their acts to countries like Germany, Switzerland, France, Czech Republic or Poland along many more. They also get into big festivals like <strong>Download Festival Madrid</strong> and Out of Sight Festival (POR), feature in major Spotify playlists like "New Metal Tracks" and bring new music covering One Step Closer from the almighty Linkin Park for "HCXHC Vol. 3", a charity compilation focused on helping cancer victims.
+
+    At the end of the year, Meltdown announce their act at <strong>Resurrection Fest 2019</strong>, the biggest metal festival in Spain. World domination is the next stage. This is now forever.
   </div>
   <div class="info__profiles">
     <div class="info__box">

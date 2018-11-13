@@ -30,9 +30,11 @@
 
       <strong>From This Day To The Grave</strong> (2018)<br><br>
 
+      2018ko urtarrilan Meltdownek <strong>"From This Day To The Grave"</strong> diska berriaren argitalpena adierazten du, <strong>Art Gates Records</strong> (ESP/POR) eta <strong>Imminence Records</strong> (USA) disketxeekin egindako akordioekin batera.
 
+      Lan berri honek taldearen historiako lorpen handienak ekartzen ditu: gelditu gabe egoten dira biran <strong>Europa osoan zehar, estatutik kanpo 25 kontzertu</strong> baina gehiago ematen Alemania, Suitza, Frantzia, Txekiar Errepublika eta Polonia bezalako herrialdeetan. <strong>Download Festival Madrid</strong> eta Out of Sight Festival (POR) bezalako festibal handietan ere parte hartzen dute, "New Metal Tracks" bezalako Spotifyko playlist handietan agertzen dira eta musika berria argitaratzen dute, Linkin Park talde esanguratsuaren One Step Closer abestia moldatuz "HCXHC Vol. 3" izeneko abesti bilduma solidariorako, kantzerraren biktimei zuzendutako proiektu bat.
 
-      <strong>2018ko urtarrilean</strong> beraien lehen LParen argitaratzea anuntziatzen dute, zeinak “From This Day To The Grave”  izena hartuko duen bai eta <strong>Art Gates Records</strong>-en fitxajea ere.
+      Urte amaieran, Meltdownek <strong>Resurrection Fest 2019</strong> festibalean emanaldi bat emango dutela adierazten du, estatu mailako metal festibal handienean. Munduaren dominazioa da hurrengo pausoa. Hau jada betirako da.
   </div>
   <div class="info__profiles">
     <div class="info__box">
