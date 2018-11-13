@@ -546,9 +546,6 @@ body {
 .contact__img--meltdown {
   height: calc(100vw/10); }
 
-.contact__sep {
-  height: 10rem; }
-
 @media only screen and (min-width: 1024px) {
   .contact__grid {
     grid-template-columns: 50% 50%; }

@@ -20,7 +20,6 @@
         <?php require('imports/svg/phone.svg') ?> 0034 696 039 804 (Rove)<br>
         <?php require('imports/svg/mail.svg') ?> info@atlasartistagency.com
       </div>
-      <div class="contact__sep"></div>
       <div class="vcenter"><a class="contact__link" href="http://growingrootsagency.com/" target="_blank"><img class="contact__img contact__img--atlas" src="img/contact/gr.png" alt=""/></a></div>
       <div class="contact__info">
         <h1>GROWING ROOTS AGENCY</h1>
@@ -39,12 +38,11 @@
         <?php require('imports/svg/mail.svg') ?> ivan.magdalena@artgatesrecords.com <br>
         <?php require('imports/svg/web.svg') ?> www.artgatesrecords.com <br>
       </div>
-      <div class="contact__sep"></div>
       <div class="vcenter"><a class="contact__link" href="https://www.facebook.com/meltdowntaldea/" target="_blank"><img class="contact__img contact__img--meltdown" src="img/meltdown-logos/meltdown-black.png" alt=""/></a></div>
       <div class="contact__info">
         <h1>MELTDOWN</h1>
         <h2>EUROPE</h2>
-        <?php require('imports/svg/mail.svg') ?> meltdowntaldea@gmail.com <br>
+        <?php require('imports/svg/mail.svg') ?> info@meltdownofficial.com <br>
         <?php require('imports/svg/web.svg') ?> www.meltdownofficial.com <br>
       </div>
     </div>
