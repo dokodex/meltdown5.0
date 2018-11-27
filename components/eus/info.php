@@ -7,7 +7,7 @@
       <strong>Lehenengo urteak</strong> (2013-2015)<br><br>
 
 
-      <strong>2014ko uztailean</strong> beraien <strong>lehen EPa</strong> aurkezten dute, Meltdown izena izango dueña Alvaro Remachak grabatua (Materia, Cohen, LionHead, All Became Dust…). EP homónimo honek kritika onak izango ditu Rockzone edo El Diario Vasco bezalako komunikabideetan. Honen ondorioz Euskal Herri osotik Dawn of the Maya, Bellako, Adrenalized edo Hyde Abbey bezalako taldeekin kontzertuak jotzeko aukerak izango dituzte.<br><br>
+      <strong>2014ko uztailean</strong> beraien <strong>lehen EPa</strong> aurkezten dute, Meltdown izena izango dueña Alvaro Remachak grabatua (Materia, Cohen, LionHead, All Became Dust…). EP homonimo honek kritika onak izango ditu Rockzone edo El Diario Vasco bezalako komunikabideetan. Honen ondorioz Euskal Herri osotik Dawn of the Maya, Bellako, Adrenalized edo Hyde Abbey bezalako taldeekin kontzertuak jotzeko aukerak izango dituzte.<br><br>
 
       <strong>2015an</strong>, kontzertuz lepo izandako hilabete batzuen ondoren, beraien bigarren EPa izango dena konposatzeko tartea hartzea erabakitzen dute. Denbora baten ondoren, oholtzen gainera itzultzen dira eta hainbat konkurso irabazi ondoren beraien <strong>single berria aurkezten dute “Oxymoron”</strong>, beraien lehen lanaren eta bigarrenaren arteko trantsizio bezala balioko diena.<br><br>
 
