@@ -6,7 +6,7 @@
       <div class="contact__info">
         <h1>ATLAS ARTIS AGENCY</h1>
         <?php require('imports/svg/phone.svg') ?> 0034 696 039 804 (Rove)<br>
-        <?php require('imports/svg/mail.svg') ?> info@atlasartistagency.com
+        <?php require('imports/svg/mail.svg') ?> info@atlasartist.com
       </div>
     </div>
   </div>
@@ -18,7 +18,7 @@
         <h1>ATLAS ARTIS AGENCY</h1>
         <h2>EN TODO EL MUNDO</h2>
         <?php require('imports/svg/phone.svg') ?> 0034 696 039 804 (Rove)<br>
-        <?php require('imports/svg/mail.svg') ?> info@atlasartistagency.com
+        <?php require('imports/svg/mail.svg') ?> info@atlasartist.com
       </div>
       <div class="vcenter"><a class="contact__link" href="http://growingrootsagency.com/" target="_blank"><img class="contact__img contact__img--atlas" src="img/contact/gr.png" alt=""/></a></div>
       <div class="contact__info">
