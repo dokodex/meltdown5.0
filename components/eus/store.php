@@ -20,6 +20,12 @@
       </a>
     </div>
     <div class="store__product">
+      <a href="https://meltdownband.bigcartel.com/product/black-plume" target="_blank" class="store__product__link">
+        <img class="store__img" src="img/merch/black-plume.jpg">
+        <div class="store__description vcenter">BLACK PLUME 10€</div>
+      </a>
+    </div>
+    <div class="store__product">
       <a href="https://meltdownband.bigcartel.com/product/rhomb" target="_blank" class="store__product__link">
         <img class="store__img" src="img/merch/rhomb.jpg">
         <div class="store__description vcenter">RHOMB 15€</div>
