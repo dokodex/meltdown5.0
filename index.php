@@ -3,5 +3,6 @@
 <?php require_once('components/'. $language .'/home.php'); ?>
 <?php require_once('components/'. $language .'/store.php'); ?>
 <?php require_once('components/'. $language .'/videos.php'); ?>
+<?php require_once('components/'. $language .'/spotify.php'); ?>
 <?php require_once('components/'. $language .'/tour-dates.php'); ?>
 <?php require_once('components/'. $language .'/footer.php'); ?>
