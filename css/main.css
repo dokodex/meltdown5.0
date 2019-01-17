@@ -428,6 +428,7 @@ body {
 
 .home {
   background: url("../img/hero.jpg") no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   color: #656262;
   height: 100vh;
@@ -575,7 +576,7 @@ body {
 
 .videos {
   margin: auto;
-  max-width: 1280px;
+  max-width: 100vw;
   position: relative;
   z-index: 5; }
 
@@ -792,3 +793,27 @@ body {
   max-width: 780px;
   text-align: justify;
   padding: 5rem 1rem 0 1rem; }
+
+.spotify {
+  background: url("../img/spotify/background.jpg") no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  max-width: 100vw;
+  padding-top: 5rem;
+  position: relative;
+  z-index: 15; }
+
+.spotify__content {
+  max-width: 780px;
+  margin: auto;
+  text-align: center; }
+
+.spotify__title {
+  color: white;
+  font-family: "Montserrat Regular", sans-serif;
+  padding-top: 5rem; }
+
+.spotify__iframe {
+  margin-left: 3rem;
+  padding-top: 7rem;
+  padding-bottom: 5rem; }
