@@ -22,10 +22,19 @@
 		    echo "<h3>" . $row['con'] . "</h3>";
 		    echo "</div>";
 		    echo "<div class='tour-dates__facebook  vcenter'>";
-		    echo "<a class='tour-dates__link' href='".$row['evento']."'>"; require('imports/svg/facebook1.svg'); echo "</a>";
+
+        if(empty($row['evento'])){
+          echo "<a class='tour-dates__link' style='opacity:.2;'>"; require('imports/svg/facebook1.svg'); echo "</a>";
+        }else{
+          echo "<a class='tour-dates__link' href='".$row['evento']."'>"; require('imports/svg/facebook1.svg'); echo "</a>";
+        }
 		    echo "</div>";
 		    echo "<div class='tour-dates__tickets  vcenter'>";
-		    echo "<a class='tour-dates__link' href='".$row['tickets']."'>"; require('imports/svg/tickets.svg'); echo "</a>";
+        if(empty($row['tickets'])){
+          echo "<a class='tour-dates__link' style='opacity:.2;'>"; require('imports/svg/tickets.svg'); echo "</a>";
+        }else{
+          echo "<a class='tour-dates__link' href='".$row['tickets']."'>"; require('imports/svg/tickets.svg'); echo "</a>";;
+        }
 		    echo "</div>";
 		    echo "</div>";
 		    echo "</div>";

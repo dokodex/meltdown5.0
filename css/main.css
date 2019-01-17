@@ -390,20 +390,25 @@ body {
   padding-bottom: 5rem; }
 
 .tour-dates__tour-date {
-  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.65);
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  transition: background 0.2s, color 0.2s; }
+
+.tour-dates__tour-date:hover {
+  background: #656262;
+  color: white; }
+  .tour-dates__tour-date:hover .tour-dates__date, .tour-dates__tour-date:hover .tour-dates__info h3 {
+    color: white; }
 
 .tour-dates__grid {
-  background-color: white;
   border-collapse: collapse;
   display: grid;
   grid-template-columns: 20% 50% 15% 15%;
   text-align: left; }
 
 .tour-dates__date {
-  background-color: #656262;
-  color: white;
-  text-align: center; }
+  color: #656262;
+  text-align: center;
+  transition: color .2s; }
 
 .tour-dates__info {
   padding: 1rem; }
@@ -413,10 +418,15 @@ body {
 
 .tour-dates__info h3 {
   color: #656262;
-  font-weight: normal; }
+  font-weight: normal;
+  transition: color .2s; }
 
 .icon--facebook1, .icon--tickets {
-  height: 3rem; }
+  height: 3rem;
+  transition: opacity .2s; }
+
+.icon--facebook1:hover, .icon--tickets:hover {
+  opacity: .2; }
 
 @media only screen and (min-width: 1024px) {
   .tour-dates__title {
