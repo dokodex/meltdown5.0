@@ -1,5 +1,5 @@
 <section class="section store">
-  <h1 class="store__title">DENDA OFIZIALA</h1>
+  <h1 class="store__title title">DENDA OFIZIALA</h1>
   <div class="store__products">
     <div class="store__product">
       <a href="https://meltdownband.bigcartel.com/product/fire-circle" target="_blank" class="store__product__link">

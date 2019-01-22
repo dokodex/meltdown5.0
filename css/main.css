@@ -28,6 +28,13 @@ body {
   align-content: center;
   flex-direction: column; }
 
+.title {
+  color: #656262;
+  font-family: "Bebas", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  padding: 5rem 0 5rem 0; }
+
 .header {
   align-items: center;
   background-color: black;
@@ -317,10 +324,7 @@ body {
   z-index: 5; }
 
 .store__title {
-  font-family: "Bebas", sans-serif;
-  font-size: 5rem;
-  padding-top: 5rem;
-  text-align: center; }
+  color: black; }
 
 .store__products {
   display: flex;
@@ -360,9 +364,6 @@ body {
   text-align: center; }
 
 @media only screen and (min-width: 1024px) {
-  .store__title {
-    font-size: 5rem;
-    font-style: bold; }
   .store__products {
     flex-flow: row wrap; }
   .store__product {
@@ -378,12 +379,6 @@ body {
   position: relative;
   text-align: center;
   z-index: 5; }
-
-.tour-dates__title {
-  font-family: "Bebas", sans-serif;
-  font-size: 5rem;
-  font-style: bold;
-  padding: 5rem 2rem 5rem 2rem; }
 
 .tour-dates__tour-dates {
   font-family: "Montserrat Bold", sans-serif;
@@ -429,8 +424,6 @@ body {
   opacity: .2; }
 
 @media only screen and (min-width: 1024px) {
-  .tour-dates__title {
-    font-size: 5rem; }
   .tour-dates__tour-date h2 {
     font-size: 1rem; }
   .tour-dates__tour-date h3 {
@@ -630,11 +623,7 @@ body {
   z-index: 5; }
 
 .past-shows__title {
-  color: white;
-  font-family: "Bebas", sans-serif;
-  font-size: 3rem;
-  font-style: bold;
-  padding: 5rem 2rem 5rem 2rem; }
+  color: white; }
 
 .past-shows__table {
   color: white;
@@ -679,8 +668,6 @@ body {
   font-style: italic; }
 
 @media only screen and (min-width: 768px) {
-  .past-shows__title {
-    font-size: 5rem; }
   .past-shows__table {
     font-size: .8rem; }
   .past-shows__table td:nth-child(3), .past-shows__table td:nth-child(4), .past-shows__table td:nth-child(5) {

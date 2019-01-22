@@ -1,5 +1,5 @@
 <section class="section past-shows">
-  <h1 class="past-shows__title">PAST SHOWS</h1>
+  <h1 class="past-shows__title title">PAST SHOWS</h1>
   <table class="past-shows__table">
     <tr class="past-shows--row past-shows__table--head">
       <td>Date</td>

@@ -1,5 +1,6 @@
 $store-max-width:$grid;
 $store-tilte-font-family:$font-family-bebas;
+$store-title-font-color:black;
 $store-product-background-color:$color-white;
 $store-product-font-family:$font-family-montserrat;
 $note-font-family:$font-family-montserrat-regular;
@@ -13,10 +14,7 @@ $store-product-font-color:$color-gray-content;
 }
 
 .store__title{
-  font-family: $store-tilte-font-family;
-  font-size: 5rem;
-  padding-top:5rem;
-  text-align: center;
+  color: $store-title-font-color;
 }
 
 .store__products{
@@ -69,8 +67,7 @@ $store-product-font-color:$color-gray-content;
 @media #{$breakpoints-large} {
 
   .store__title{
-    font-size: 5rem;
-    font-style:bold;
+    
   }
 
   .store__products {

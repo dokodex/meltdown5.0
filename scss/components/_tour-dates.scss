@@ -11,10 +11,7 @@ $tour-dates-ont-family:$font-family-montserrat;
   }
 
 .tour-dates__title {
-  font-family: $tour-dates-title-font-family;
-  font-size: 5rem;
-  font-style: bold;
-  padding: 5rem 2rem 5rem 2rem; 
+
 }
 
 .tour-dates__tour-dates {
@@ -79,7 +76,7 @@ $tour-dates-ont-family:$font-family-montserrat;
 
 @media #{$breakpoints-large} {
   .tour-dates__title {
-    font-size: 5rem; 
+    
   }
 
   .tour-dates__tour-date h2 {

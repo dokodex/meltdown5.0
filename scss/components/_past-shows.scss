@@ -15,10 +15,6 @@ $past-shows-title-font-color:$color-white;
 
 .past-shows__title{
   color:$past-shows-title-font-color;
-  font-family: $past-shows-title-font-family;
-  font-size: 3rem;
-  font-style: bold;
-  padding: 5rem 2rem 5rem 2rem;
 }
 
 .past-shows__table{
@@ -77,7 +73,7 @@ $past-shows-title-font-color:$color-white;
 
 @media only screen and (min-width:768px) {
   .past-shows__title{
-    font-size: 5rem;
+
   }
 
 

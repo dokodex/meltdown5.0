@@ -1,5 +1,5 @@
 <section class="section past-shows">
-  <h1 class="past-shows__title">PASATAKO KONTZERTUAK</h1>
+  <h1 class="past-shows__title title">PASATAKO KONTZERTUAK</h1>
   <table class="past-shows__table">
     <tr class="past-shows--row past-shows__table--head">
       <td>Data</td>
