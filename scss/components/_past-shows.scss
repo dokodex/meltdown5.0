@@ -1,16 +1,22 @@
-$past-shows-max-width:$grid;
+$past-shows-max-width:100vw;
+$past-shows-content-max-width:$grid;
 $past-shows-background-color:$color-gray-content;
 $past-shows-title-font-family:$font-family-bebas;
 $past-shows-title-font-color:$color-white;
 
 .past-shows{
-  background-color:$past-shows-background-color;
-  margin: auto;
+  background: url('../img/past-shows/background.jpg') no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   max-width:$past-shows-max-width;
-  margin-bottom: 5rem;
   position: relative;
   text-align: center;
   z-index: 5;
+}
+
+.past-shows__content{
+  max-width: $past-shows-content-max-width;
+  margin: auto;
 }
 
 .past-shows__title{
