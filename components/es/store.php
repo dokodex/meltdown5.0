@@ -1,5 +1,5 @@
 <section class="section store">
-  <h1 class="store__title">TIENDA OFICIAL</h1>
+  <h1 class="store__title title">TIENDA OFICIAL</h1>
   <div class="store__products">
     <div class="store__product">
       <a href="https://meltdownband.bigcartel.com/product/fire-circle" target="_blank" class="store__product__link">

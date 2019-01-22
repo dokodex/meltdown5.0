@@ -9,6 +9,8 @@ $header-menu-font-color2:$color-white;
 $header-menu-link-box-shadow:$box-shadow-litle;
 $icon-menu-color:$color-white;
 $icon-menu-color1:$color-black;
+$tilte-font-family:$font-family-bebas;
+$title-font-color:$color-gray-content;
 
 body{
   background-color:$color-white-dirty;
@@ -20,6 +22,14 @@ body{
   justify-content: center;
   align-content: center;
   flex-direction: column
+}
+
+.title{
+  color: $title-font-color;
+  font-family: $tilte-font-family;
+  font-size: 3rem;
+  text-align: center;
+  padding: 5rem 0 5rem 0;
 }
 
 .header{
@@ -121,6 +131,11 @@ body{
 }
 
 @media #{$breakpoints-large} {
+
+  .title{
+
+  }
+
   .header{
     height: auto;
   }
