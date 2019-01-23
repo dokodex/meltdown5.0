@@ -1,97 +1,88 @@
-$music-max-width:$grid;
-$music-head-description-font-family:$font-family-wensley;
-$music-head-description-font-color:$color-white;
-$music-head-icon-spotify-color:$color-green-spotify;
-$music-head-icon-youtube-color:$color-red-youtube;
-$music-info-background-color:$color-black-opacity;
-$music-album-font-family:$font-family-montserrat;
-$music-album-font-color:$color-white;
+$music-max-width:100vw;
 
 .music{
-  margin:auto;
   max-width: $music-max-width;
   position: relative;
-  z-index:5;
+  z-index: 10;
 }
 
-.music__head__link{
-  text-align: center;
-  text-decoration:none;
-}
-
-.music__head__grid{
-  background: url('../img/music/back.jpg') no-repeat;
-  background-size: auto 100%;
-  display: grid;
-  grid-template-rows: 50% 50%;
-  min-height:30rem;
-  width: 100%;
-}
-
-.music__head__description{
-  color: $music-head-description-font-color;
-  font-family: $music-head-description-font-family;
-  font-size: 2rem;
-  padding-top: 5rem;
-}
-
-.music__head__img{
-  width: 50%;
-  padding-left:15rem;
-  opacity: .8;
-}
-
-.music__head__rrss .icon{
-  height: 20px;
-  padding: 0 20px 20px 0;
-  opacity: .8;
-}
-
-.music__head__rrss .icon--spotify{
-  fill:$music-head-icon-spotify-color;
-}
-
-
-.music__head__rrss .icon--youtube{
-  fill:$music-head-icon-youtube-color;
-}
-
-.music__albums{
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-between;
-}
-
-.music__album{
-  flex:0 1 100%;
-  font-family: $music-album-font-family;
-  font-size: 2.5rem;
-  margin: auto;
-  position: relative;
-  text-align: center;
-}
-
-.music__album__link{
-  color: $music-album-font-color;
-  text-decoration: none;
-}
-
-.music__info{
-  background-color: $music-info-background-color;
-  height: 100%;
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  width: 100%;
-  transition: opacity .2s;
-}
-
-.music__info:hover{
-  opacity: 1;
-}
-
-.music__album__img{
+.music__box{
   width: 100vw;
+  overflow: hidden;
+}
+
+.music__content--ftdttg{
+  background: url('../img/music/ftdttg.jpg') no-repeat;
+}
+
+.music__content--irtdh{
+  background: url('../img/music/irtdh.jpg') no-repeat;
+}
+
+.music__content--oxymoron{
+  background: url('../img/music/oxymoron.jpg') no-repeat;
+}
+
+.music__content{
+  height: auto;
+  width: 100%;
+  background-attachment: fixed;
+  background-size: 200%;
+  background-position: center;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.music__content:hover{
+  background-size: 220%;
+
+  .music__divimg, .music__listen{
+    opacity: 1;
+    transition: opacity .8s;
+  }
+}
+
+
+.music__content{
+  display:grid;
+  grid-template-rows: 50% 50%;
+}
+
+.music__divimg{
+  text-align: center;
+  transition: opacity .2s ease;
+  opacity: 0;
+}
+
+.music__img{
+  -webkit-box-shadow: 0px 0px 23px 6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 23px 6px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 23px 6px rgba(0,0,0,0.75);
+  margin-top: 5rem;
+  width: 300px;
+}
+
+.music__listen{
+  text-align: center;
+  transition: opacity .2s ease-in;
+  opacity: 0;
+  padding-bottom: 5rem;
+}
+
+.music__spotify{
+  margin-top: 4rem;
+}
+
+.music__content--irtdh .music__spotify{
+  margin-top: 7.5rem;
+}
+
+.music__listen .music__oxyvideo{
+  border:0px;
+  margin-top: 5rem;
 }
 
 @media #{$breakpoints-medium} {
@@ -99,35 +90,20 @@ $music-album-font-color:$color-white;
 }
 
 @media #{$breakpoints-large} {
-  .music__head__grid{
-    background-size: 100% auto;
+
+  .music__content{
+    background-size: 100%;
+    height: 500px;
     grid-template-columns: 50% 50%;
+
   }
 
-  .music__head__description{
-    padding-top: 0rem;
-    font-size: 1.5rem;
+  .music__content:hover{
+    background-size: 120%;
   }
 
-  .music__head__img{
-    padding-left:10rem;
-  }
-
-  .music__head__rrss .icon{
-    height: 2rem;
-  }
-
-  .music__albums{
-    flex-flow: row wrap;
-  }
-
-  .music__album{
-    flex: 0 1 calc(100%/3);
-    font-size: 1rem;
-  }
-
-  .music__album__img{
-    width: 100%;
+  .music__listen{
+    padding-bottom: 0;
   }
 
 }
