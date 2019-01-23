@@ -1,39 +1,32 @@
 <section class="section music">
-  <a class="music__head__link" href="https://www.youtube.com/watch?v=mTP0VMNNMvA&list=PLV0gCQq2rXa8AJTOAGS-2HzU02WUyuZFZ" target="_blank">
-    <div class="music__head__grid">
-      <div class="music__head__description vcenter"><br> "FROM THIS DAY TO THE GRAVE" <br> ALBUM BERRIA, KALEAN</div>
-      <div class="music__head__album vcenter">
-        <img class="music__head__img" src="img/music/ftdttg.png" alt=""/>
+  <div class="music__box">
+    <div class="music__content music__content--ftdttg">
+      <div class="music__divimg">
+        <img class="music__img" src="img/music/ftdttg-s.jpg">
+      </div>
+      <div class="music__listen">
+        <iframe class="music__spotify" src="https://open.spotify.com/embed/album/3f0xvtNAHbXhtCgVyEFEF8" width="500" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
       </div>
     </div>
-  </a>
-  <div class="music__albums">
-    <div class="music__album">
-      <img class="music__album__img" src="img/music/ftdttg.jpg" alt=""/>
-      <a class="music__album__link" href="https://open.spotify.com/album/3f0xvtNAHbXhtCgVyEFEF8" target="_blank">
-        <div class="music__info vcenter">
-          "FROM THIS DAY TO THE GRAVE"<br>
-          (2018)
-        </div>
-      </a>
+  </div>
+  <div class="music__box">
+    <div class="music__content music__content--irtdh">
+      <div class="music__divimg">
+        <img class="music__img" src="img/music/irtdh-s.jpg">
+      </div>
+      <div class="music__listen">
+        <iframe class="music__spotify" src="https://open.spotify.com/embed/album/4moge0gt2abtyGT3lVxdQT" width="500" height="230" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      </div>
     </div>
-    <div class="music__album">
-      <img class="music__album__img" src="img/music/irtdh.jpg" alt=""/>
-      <a class="music__album__link" href="https://www.youtube.com/watch?v=9mgaUVr-iwo&list=PLV0gCQq2rXa8ujZOJi2jTEJ9jph0-Fa1z" target="_blank">
-        <div class="music__info vcenter">
-          "I REFUSE TO DIE HERE"<br>
-          (2016)
-        </div>
-      </a>
-    </div>
-    <div class="music__album">
-      <img class="music__album__img" src="img/music/oxymoron.jpg" alt=""/>
-      <a class="music__album__link" href="https://www.youtube.com/watch?v=iEIiZ6761b8" target="_blank">
-        <div class="music__info vcenter">
-          "OXYMORON"<br>
-          (2015)
-        </div>
-      </a>
+  </div>
+  <div class="music__box">
+    <div class="music__content music__content--oxymoron">
+      <div class="music__divimg">
+        <img class="music__img" src="img/music/oxymoron-s.jpg">
+      </div>
+      <div class="music__listen">
+        <iframe class="music__oxyvideo" width="90%" height="300px" src="https://www.youtube.com/embed/iEIiZ6761b8"></iframe>
+      </div>
     </div>
   </div>
 </section>
