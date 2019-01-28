@@ -7,13 +7,10 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="Content-Language" content="en" />
 
-    <title>MELTDOWN | HARDCORE-METAL BAND [OFFICIAL SITE]</title>
+    <title>MELTDOWN | This is now forever</title>
     
-    <meta name="description" content="My projects to date" />
-    <meta name="author" content="Dokodex" />
-    
-    <meta name="keywords" content="Dokodex" />
-    <meta name="copyrite" content="Copyrite Dokodex 2018" />
+    <meta name="description" content="Meltdown, Hardcore-Metal band from the Basque Country" />    
+    <meta name="keywords" content="Meltdown, Meltdown Hardcore, Meltdown metal, Meltdown web, Meltdown official, meltdownofficial, Meltdown pagina">
     
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <link rel="shortcut icon" href="img/gear.png" />
