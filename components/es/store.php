@@ -63,6 +63,6 @@
     </div>
   </div>
   <div class="store__note">
-    <strong>NOTA - </strong>Hacemos los envíos todos los <strong>jueves</strong>.
+    <strong>NOTA - </strong>Hacemos los envíos todos los <strong>martes</strong>.
   </div>
 </section>

@@ -63,6 +63,6 @@
     </div>
   </div>
   <div class="store__note">
-    <strong>NOTA - </strong>Eskariak <strong>ostegunero</strong> egiten ditugu.
+    <strong>NOTA - </strong>Eskariak <strong>asteartero</strong> egiten ditugu.
   </div>
 </section>
