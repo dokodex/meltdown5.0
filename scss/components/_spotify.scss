@@ -6,6 +6,7 @@ $spotify-title-font-color:white;
 .spotify{
   background: url('../img/spotify/background.jpg') no-repeat;
   background-attachment: fixed;
+  height: 100vh;
   background-size: cover;
   max-width: $spotify-max-width;
   padding-top: 5rem;
@@ -22,11 +23,29 @@ $spotify-title-font-color:white;
 .spotify__title{
   color: $spotify-title-font-color;
   font-family: $spotify-title-font-family;
-  padding-top: 5rem;
+  padding-top: 12rem;
+  font-size: 3rem;
 }
 
 .spotify__iframe{
   margin-left: 3rem;
   padding-top: 7rem;
   padding-bottom: 5rem;
+  transform:scale(1.27);
+}
+
+@media #{$breakpoints-medium} {
+
+}
+
+@media #{$breakpoints-large} {
+
+  .spotify__title{
+    font-size: 2rem;
+  }
+
+}
+
+@media #{$breakpoints-xlarge} {
+
 }

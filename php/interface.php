@@ -14,7 +14,7 @@
 			$row = array_map("utf8_encode", $row);
 		    echo "<div class='tour-dates__tour-date'>";
 		    echo "<div class='tour-dates__grid'>";
-		    echo "<div class='tour-dates__date vcenter'>" . $row['fecha'] . "</div>";
+		    echo "<div class='tour-dates__date vcenter'>" . strtoupper($row['fecha']) . "</div>";
 		    $place=$row['lugar'];
 		    $sepplace=explode(' / ', $place);
 		    echo "<div class='tour-dates__info vcenter'>";

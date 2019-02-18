@@ -15,7 +15,7 @@ class dataAccess{
 			die("Connection failed: " . $conn->connect_error);
 		}
 
-		$sql = "SELECT fecha as fecha1, date_format(fecha,'%d/%m/%Y') as fecha, lugar, con, evento, tickets FROM comming_shows ORDER BY fecha1";
+		$sql = "SELECT fecha as fecha1, date_format(fecha,'%a, %d %b') as fecha, lugar, con, evento, tickets FROM comming_shows ORDER BY fecha1";
 		$result = $conn->query($sql);
 
 		if ($result->num_rows > 0){

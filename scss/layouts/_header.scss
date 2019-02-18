@@ -78,13 +78,13 @@ body{
 }
 
 .header__menu__link{
-  border-top: 1px white solid;
+  border-top: 0px white solid;
   color: $header-menu-font-color1;
   font-size: 2rem;
   height: 2rem;
   opacity: 0;
   visibility: hidden;
-  padding-top: 2.5rem;
+  padding-top: 3rem;
   position: relative;
   text-decoration:none;
   transition: opacity .2s, visibility .2s;
@@ -161,7 +161,7 @@ body{
   }
 
   .header__menu{
-    margin-top: 1rem;
+    margin-top: 22px;
     text-align: center;
     position: static;
     width: auto;
